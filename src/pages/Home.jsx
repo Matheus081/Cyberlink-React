@@ -10,12 +10,12 @@ import ScrollableSection from '../components/ScrollableSection';
 import PlatformGameCard from '../components/PlatformGameCard';
 import BackToTopButton from "../components/BackToTopButton";
 
-const StatCard = ({ icon: Icon, label, value, color, gradient }) => (
+const StatCard = ({ icon: CardIcon, label, value, color, gradient }) => (
   <div className="group relative overflow-hidden bg-gradient-to-br from-gray-800/80 to-gray-900/80 rounded-xl p-4 border border-gray-700/30 hover:border-blue-500/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-blue-500/10">
     <div className={`absolute inset-0 bg-gradient-to-br ${gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
     <div className="relative flex items-center gap-3">
       <div className={`p-2 rounded-lg ${color} shadow-lg`}>
-        <Icon className="w-5 h-5 text-white" />
+        <CardIcon className="w-5 h-5 text-white" />
       </div>
       <div>
         <p className="text-gray-400 text-xs font-medium">{label}</p>

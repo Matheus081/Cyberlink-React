@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { useScroll } from './ScrollableSection';
+import { useScroll } from '../hooks/useScroll';
 
 const TopGameCard = ({ game, rank }) => {
   const navigate = useNavigate();

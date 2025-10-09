@@ -18,7 +18,7 @@ function App() {
     <div className="flex flex-col min-h-screen bg-gray-900">
       <ScrollToTop />
       {!isSearchPage && <Header />}
-      <main className={`flex-grow ${!isSearchPage ? 'pb-16 lg:pb-0' : ''}`}>
+      <main className="flex-grow">
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />

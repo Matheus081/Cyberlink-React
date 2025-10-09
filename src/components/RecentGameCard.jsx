@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Star, Monitor, Download, Play, Tag, Gamepad2, MoreHorizontal } from 'lucide-react';
-import { useScroll } from './ScrollableSection';
+import { useScroll } from '../hooks/useScroll';
 
 const RecentGameCard = ({ game, onClick }) => {
   const scrollRef = useScroll();

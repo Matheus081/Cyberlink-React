@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useScroll } from './ScrollableSection';
+import { useScroll } from '../hooks/useScroll';
 
 const PlatformGameCard = ({ game, onClick }) => {
   const scrollRef = useScroll();

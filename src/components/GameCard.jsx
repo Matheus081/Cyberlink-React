@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ChevronRight, Gamepad2 } from 'lucide-react';
-import { useScroll } from './ScrollableSection';
+import { useScroll } from '../hooks/useScroll';
 
 const GameCard = ({ genre, onClick }) => {
   const genreName = genre.name || genre.title || genre.filter;
@@ -30,7 +30,7 @@ const GameCard = ({ genre, onClick }) => {
           <div className="flex items-center gap-4 text-gray-300">
             <div className="flex items-center gap-1">
               <Gamepad2 className="w-4 h-4" />
-              <span className="text-sm">{genre.gameCount} jogos</span>
+              <span className="text-sm">{gameCount} jogos</span>
             </div>
           </div>
         </div>

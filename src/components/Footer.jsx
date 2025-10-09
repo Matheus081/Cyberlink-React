@@ -11,7 +11,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="relative bg-gradient-to-b from-gray-950 to-black text-gray-300 mt-auto overflow-hidden">
+    <footer className="relative bg-gradient-to-b from-gray-950 to-black text-gray-300 mt-auto overflow-hidden pb-20 lg:pb-0">
       {/* Animated background elements */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-10 left-10 w-32 h-32 bg-cyan-500/10 rounded-full blur-xl animate-pulse"></div>

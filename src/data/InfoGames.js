@@ -64,8 +64,8 @@ import JackieStuntmasterGameplay1 from "../assets/jackiestuntmaster/jackiestuntm
 import JackieStuntmasterGameplay2 from "../assets/jackiestuntmaster/jackiestuntmastergameplay2.jpg"
 import Godofwar1 from "../assets/gow/godofwar1.jpg"
 import Godofwar1Desktop from "../assets/gow/godofwar1desktop.jpg"
-import GodOfWar1Gameplay1 from "../assets/gow/godOfwar1gameplay1.jpg"
-import GodOfWar1Gameplay2 from "../assets/gow/godofwar1gameplay2.jpg"
+import GodofWar1Gameplay1 from "../assets/gow/godofwar1gameplay1.jpg"
+import GodofWar1Gameplay2 from "../assets/gow/godofwar1gameplay2.jpg"
 import Godofwar2 from "../assets/gow2/godofwar2.jpg"
 import Godofwar2Desktop from "../assets/gow2/godofwar2desktop.jpg"
 import GodOfWar2Gameplay1 from "../assets/gow2/godofwar2gameplay1.jpg"
@@ -575,8 +575,8 @@ const info = [
         rank: 1,
         gallery: [
             Godofwar1Desktop,
-            GodOfWar1Gameplay1,
-            GodOfWar1Gameplay2
+            GodofWar1Gameplay1,
+            GodofWar1Gameplay2
         ],
         youtubeId: "s9vXRjlXX3c",
         EmuladorPC: "https://pcsx2.net/downloads/",
@@ -947,7 +947,7 @@ const info = [
         gallery: [
             Resident4Desktop,
             Resident4Gameplay1,
-            Resident4Gameplay2
+            Resident4Gameplay2 
         ],
         youtubeId: "Eqjeoz8FVu8",
         EmuladorPC: "https://pcsx2.net/downloads/",

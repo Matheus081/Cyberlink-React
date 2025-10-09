@@ -1,9 +1,6 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { useRef, createContext, useContext } from 'react';
-
-const ScrollContext = createContext(null);
-
-export const useScroll = () => useContext(ScrollContext);
+import { useRef } from 'react';
+import { ScrollContext } from '../hooks/useScroll';
 
 const ScrollableSection = ({
   title,

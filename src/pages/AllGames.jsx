@@ -1,4 +1,4 @@
-import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import infoGames from "../data/InfoGames";
@@ -9,11 +9,7 @@ import CustomSelect from "../components/CustomSelect";
 import useIsMobile from "../hooks/useIsMobile";
 import BackToTopButton from "../components/BackToTopButton";
 
-const normalizeText = (str) =>
-  str?.toString().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-
 const AllGames = () => {
-  const location = useLocation();
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const isMobile = useIsMobile();
@@ -39,7 +35,7 @@ const AllGames = () => {
     }
     setSearchParams(params, { replace: true });
     setVisibleGames(10);
-  }, [platformFilter, genreFilter, setSearchParams]);
+  }, [platformFilter, genreFilter, setSearchParams, searchParams]);
 
   const handleGameClick = (gameId) => {
     navigate(`/game/${gameId}`);
