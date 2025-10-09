@@ -1,23 +1,18 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
-import { execSync } from 'child_process';
+import fs from 'fs'; // Import fs
+import path from 'path'; // Import path
 
-// Função para obter a tag mais recente do Git
-const getGitVersion = () => {
-  try {
-    const version = execSync('git describe --tags --abbrev=0').toString().trim();
-    return version;
-  } catch (error) {
-    console.error('Erro ao obter a tag do Git:', error.message);
-    return 'dev'; 
-  }
-};
+// Read package.json synchronously
+const packageJsonPath = path.resolve(process.cwd(), 'package.json');
+const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf-8'));
+const appVersion = packageJson.version;
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   define: {
-    'import.meta.env.VITE_APP_VERSION': JSON.stringify(getGitVersion()),
+    'import.meta.env.VITE_APP_VERSION': JSON.stringify(appVersion),
   },
 });
