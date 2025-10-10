@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import infoGames from "../data/InfoGames";
@@ -29,7 +29,14 @@ const itemVariants = {
 
 const NewGames = () => {
   const navigate = useNavigate();
-  const [visibleGames, setVisibleGames] = useState(10);
+  const [visibleGames, setVisibleGames] = useState(
+    parseInt(sessionStorage.getItem("visible_new_games"), 10) || 10
+  );
+
+  useEffect(() => {
+    sessionStorage.setItem("visible_new_games", visibleGames);
+  }, [visibleGames]);
+
 
   const handleGameClick = (gameId) => {
     navigate(`/game/${gameId}`);

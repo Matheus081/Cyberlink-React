@@ -1046,7 +1046,7 @@ const info = [
             GodofwarSpartaGameplay1,
             GodofwarSpartaGameplay2
         ],
-        youtubeId: "cXk9uHUza9Y",
+        youtubeId: "vFa7RFuJnw8",
         EmuladorPC: "https://www.ppsspp.org/download/",
         EmuladorMobile: "https://www.ppsspp.org/download/",
     },
@@ -1070,7 +1070,7 @@ const info = [
             GodofwarOlympusGameplay2
 
         ],
-        youtubeId: "cXk9uHUza9Y",
+        youtubeId: "QOKd1F7ftx4",
         EmuladorPC: "https://www.ppsspp.org/download/",
         EmuladorMobile: "https://www.ppsspp.org/download/",
     },
@@ -1093,7 +1093,7 @@ const info = [
             deadtorightsgameplay1,
             deadtorightsgameplay2
         ],
-        youtubeId: "cXk9uHUza9Y",
+        youtubeId: "7bsUgUK4QRw",
         EmuladorPC: "https://www.ppsspp.org/download/",
         EmuladorMobile: "https://www.ppsspp.org/download/",
     },
@@ -1116,7 +1116,7 @@ const info = [
             SilentHillOrigensGameplay1,
             SilentHillOrigensGameplay2
         ],
-        youtubeId: "cXk9uHUza9Y",
+        youtubeId: "Hl4A1U33S70",
         EmuladorPC: "https://www.ppsspp.org/download/",
         EmuladorMobile: "https://www.ppsspp.org/download/",
     },
@@ -1139,7 +1139,7 @@ const info = [
             WolverineGameplay1,
             WolverineGameplay2
         ],
-        youtubeId: "cXk9uHUza9Y",
+        youtubeId: "g9FGuO8nWCM",
         EmuladorPC: "https://www.ppsspp.org/download/",
         EmuladorMobile: "https://www.ppsspp.org/download/",
     },

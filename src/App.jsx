@@ -9,6 +9,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Footer from "./components/Footer";
 import BottomNavBar from "./components/BottomNavBar";
 import { AnimatePresence } from "framer-motion";
+import KeepAlive from "./components/KeepAlive";
 
 function App() {
   const location = useLocation();
@@ -18,16 +19,18 @@ function App() {
     <div className="flex flex-col min-h-screen bg-gray-900">
       <ScrollToTop />
       {!isSearchPage && <Header />}
-      <main className="flex-grow">
+      <main className="flex-grow relative">
         <AnimatePresence mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Home />} />
             <Route path="/game/:id" element={<GameDetails />} />
-            <Route path="/all-games" element={<AllGames />} />
             <Route path="/novidades" element={<NewGames />} />
             <Route path="/search" element={<SearchPage />} />
           </Routes>
         </AnimatePresence>
+        <KeepAlive path="/all-games">
+          <AllGames />
+        </KeepAlive>
       </main>
       {!isSearchPage && <Footer />}
       {!isSearchPage && <BottomNavBar />}

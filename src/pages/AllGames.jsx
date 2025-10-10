@@ -1,6 +1,6 @@
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import infoGames from "../data/InfoGames";
 import AllGamesCard from "../components/AllGamesCard";
 import MobileGameCard from "../components/MobileGameCard";
@@ -13,31 +13,67 @@ const AllGames = () => {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const isMobile = useIsMobile();
-  const [visibleGames, setVisibleGames] = useState(10);
-
-
   const [platformFilter, setPlatformFilter] = useState(searchParams.get("platform") || "All");
   const [genreFilter, setGenreFilter] = useState(searchParams.get("genre") || "All");
   const searchQuery = searchParams.get("q") || "";
+  const location = useLocation();
+  const controls = useAnimation();
 
+  const smoothScroll = (targetPosition, duration) => {
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - startPosition;
+    let startTime = null;
+
+    const animation = (currentTime) => {
+      if (startTime === null) startTime = currentTime;
+      const timeElapsed = currentTime - startTime;
+      const run = ease(timeElapsed, startPosition, distance, duration);
+      window.scrollTo(0, run);
+      if (timeElapsed < duration) requestAnimationFrame(animation);
+    };
+
+    const ease = (t, b, c, d) => {
+      t /= d/2;
+      if (t < 1) return c/2*t*t*t + b;
+      t -= 2;
+      return c/2*(t*t*t + 2) + b;
+    };
+
+    requestAnimationFrame(animation);
+  };
+
+  useEffect(() => {
+    if (location.pathname === '/all-games') {
+      controls.start("visible");
+      const scrollPosition = sessionStorage.getItem("scrollPosition_allGames");
+      if (scrollPosition) {
+        smoothScroll(parseInt(scrollPosition, 10), 1200);
+        sessionStorage.removeItem("scrollPosition_allGames");
+      }
+    } else {
+      controls.start("hidden");
+    }
+  }, [location, controls]);
 
   useEffect(() => {
     const params = new URLSearchParams(searchParams);
     if (platformFilter === "All") {
       params.delete("platform");
-    } else {
+    }
+    else {
       params.set("platform", platformFilter);
     }
     if (genreFilter === "All") {
       params.delete("genre");
-    } else {
+    }
+    else {
       params.set("genre", genreFilter);
     }
     setSearchParams(params, { replace: true });
-    setVisibleGames(10);
   }, [platformFilter, genreFilter, setSearchParams, searchParams]);
 
   const handleGameClick = (gameId) => {
+    sessionStorage.setItem("scrollPosition_allGames", window.scrollY);
     navigate(`/game/${gameId}`);
   };
 
@@ -53,32 +89,15 @@ const AllGames = () => {
     return matchesPlatform && matchesGenre && matchesSearchTerm;
   });
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
+  const pageVariants = {
+    hidden: { opacity: 0, y: -50 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
       y: 0,
-      opacity: 1,
       transition: {
-        type: "spring",
-        stiffness: 100,
+        duration: 0.5,
       },
     },
-  };
-
-  const currentGames = filteredGames.slice(0, visibleGames);
-
-  const handleLoadMore = () => {
-    setVisibleGames((prev) => prev + 10);
   };
 
   const platforms = ["All", ...new Set(infoGames.map((game) => game.platform))];
@@ -93,10 +112,9 @@ const AllGames = () => {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: -50 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -50 }}
-      transition={{ duration: 0.5 }}
+      variants={pageVariants}
+      initial="hidden"
+      animate={controls}
       className="bg-gray-900 min-h-screen px-4 sm:px-6 pt-24 pb-10"
     >
       <h1 className="text-2xl sm:text-3xl font-bold text-white mb-6 text-center">
@@ -122,56 +140,34 @@ const AllGames = () => {
       )}
 
       {/* Grid de jogos */}
-      <motion.div
-        variants={containerVariants}
-        initial="hidden"
-        animate="visible"
+      <div
         className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-x-4 gap-y-6"
       >
-        {currentGames.length > 0 ? (
-          currentGames.map((game) => (
-            <motion.div
+        {filteredGames.length > 0 ? (
+          filteredGames.map((game) => (
+            <div
               key={game.id}
-              variants={itemVariants}
-              layout
               className="h-full"
             >
               {isMobile ? (
                 <MobileGameCard
                   game={game}
-                  onClick={handleGameClick}
+                  onClick={() => handleGameClick(game.id)}
                 />
               ) : (
                 <AllGamesCard
                   game={game}
-                  onClick={handleGameClick}
+                  onClick={() => handleGameClick(game.id)}
                 />
               )}
-            </motion.div>
+            </div>
           ))
         ) : (
           <p className="text-white mt-6 col-span-full text-center">
             Nenhum jogo encontrado para esses filtros.
           </p>
         )}
-      </motion.div>
-
-      {/* Botão Ver Mais */}
-      {visibleGames < filteredGames.length && (
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.5 }}
-          className="text-center mt-8"
-        >
-          <button
-            onClick={handleLoadMore}
-            className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition-colors"
-          >
-            Ver mais
-          </button>
-        </motion.div>
-      )}
+      </div>
 
       <BackToTopButton />
     </motion.div>
