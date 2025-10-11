@@ -1,6 +1,6 @@
 import { useNavigate, useSearchParams, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
+import { motion, useAnimation, AnimatePresence } from "framer-motion";
 import infoGames from "../data/InfoGames";
 import AllGamesCard from "../components/AllGamesCard";
 import MobileGameCard from "../components/MobileGameCard";
@@ -13,8 +13,8 @@ const AllGames = () => {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const isMobile = useIsMobile();
-  const [platformFilter, setPlatformFilter] = useState(searchParams.get("platform") || "All");
-  const [genreFilter, setGenreFilter] = useState(searchParams.get("genre") || "All");
+  const platformFilter = searchParams.get("platform") || "All";
+  const genreFilter = searchParams.get("genre") || "All";
   const searchQuery = searchParams.get("q") || "";
   const location = useLocation();
   const controls = useAnimation();
@@ -33,10 +33,10 @@ const AllGames = () => {
     };
 
     const ease = (t, b, c, d) => {
-      t /= d/2;
-      if (t < 1) return c/2*t*t*t + b;
+      t /= d / 2;
+      if (t < 1) return c / 2 * t * t * t + b;
       t -= 2;
-      return c/2*(t*t*t + 2) + b;
+      return c / 2 * (t * t * t + 2) + b;
     };
 
     requestAnimationFrame(animation);
@@ -54,23 +54,6 @@ const AllGames = () => {
       controls.start("hidden");
     }
   }, [location, controls]);
-
-  useEffect(() => {
-    const params = new URLSearchParams(searchParams);
-    if (platformFilter === "All") {
-      params.delete("platform");
-    }
-    else {
-      params.set("platform", platformFilter);
-    }
-    if (genreFilter === "All") {
-      params.delete("genre");
-    }
-    else {
-      params.set("genre", genreFilter);
-    }
-    setSearchParams(params, { replace: true });
-  }, [platformFilter, genreFilter, setSearchParams, searchParams]);
 
   const handleGameClick = (gameId) => {
     sessionStorage.setItem("scrollPosition_allGames", window.scrollY);
@@ -127,47 +110,76 @@ const AllGames = () => {
           <CustomSelect
             options={platforms}
             value={platformFilter}
-            onChange={(value) => setPlatformFilter(value)}
+            onChange={(value) => {
+              const newParams = new URLSearchParams(searchParams);
+              if (value === 'All') {
+                newParams.delete('platform');
+              } else {
+                newParams.set('platform', value);
+              }
+              setSearchParams(newParams);
+            }}
             placeholder="Todas as Plataformas"
           />
           <CustomSelect
             options={genres}
             value={genreFilter}
-            onChange={(value) => setGenreFilter(value)}
+            onChange={(value) => {
+              const newParams = new URLSearchParams(searchParams);
+              if (value === 'All') {
+                newParams.delete('genre');
+              } else {
+                newParams.set('genre', value);
+              }
+              setSearchParams(newParams);
+            }}
             placeholder="Todos os Gêneros"
           />
         </div>
       )}
 
       {/* Grid de jogos */}
-      <div
+      <motion.div
+        layout
         className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-x-4 gap-y-6"
       >
-        {filteredGames.length > 0 ? (
-          filteredGames.map((game) => (
-            <div
-              key={game.id}
-              className="h-full"
+        <AnimatePresence>
+          {filteredGames.length > 0 ? (
+            filteredGames.map((game) => (
+              <motion.div
+                key={game.id}
+                layout
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.8 }}
+                transition={{ duration: 0.2 }}
+                className="h-full"
+              >
+                {isMobile ? (
+                  <MobileGameCard
+                    game={game}
+                    onClick={() => handleGameClick(game.id)}
+                  />
+                ) : (
+                  <AllGamesCard
+                    game={game}
+                    onClick={() => handleGameClick(game.id)}
+                  />
+                )}
+              </motion.div>
+            ))
+          ) : (
+            <motion.p
+              className="text-white mt-6 col-span-full text-center"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
             >
-              {isMobile ? (
-                <MobileGameCard
-                  game={game}
-                  onClick={() => handleGameClick(game.id)}
-                />
-              ) : (
-                <AllGamesCard
-                  game={game}
-                  onClick={() => handleGameClick(game.id)}
-                />
-              )}
-            </div>
-          ))
-        ) : (
-          <p className="text-white mt-6 col-span-full text-center">
-            Nenhum jogo encontrado para esses filtros.
-          </p>
-        )}
-      </div>
+              Nenhum jogo encontrado para esses filtros.
+            </motion.p>
+          )}
+        </AnimatePresence>
+      </motion.div>
 
       <BackToTopButton />
     </motion.div>

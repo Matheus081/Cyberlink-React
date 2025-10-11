@@ -158,6 +158,9 @@ import Wolverine from "../assets/xmenwolverine/wolverine.jpg"
 import WolverineDesktop from "../assets/xmenwolverine/wolverinedesktop.jpg"
 import WolverineGameplay1 from "../assets/xmenwolverine/wolverinegameplay1.jpg"
 import WolverineGameplay2 from "../assets/xmenwolverine/wolverinegameplay2.jpg"
+
+
+
 const info = [
 
     {
