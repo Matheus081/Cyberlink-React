@@ -13,6 +13,6 @@ const appVersion = packageJson.version;
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   define: {
-    'import.meta.env.VITE_APP_VERSION': JSON.stringify(appVersion),
+    'import.meta.env.VITE_APP_VERSION': JSON.stringify(`v${appVersion}`),
   },
 });
