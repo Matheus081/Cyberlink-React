@@ -84,7 +84,7 @@ const NewGames = () => {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6"
+        className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-4 xl:grid-cols-5 gap-6"
       >
         {recentGames.length > 0 ? (
           recentGames.map((game) => (
