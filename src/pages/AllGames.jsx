@@ -60,6 +60,13 @@ const AllGames = () => {
     navigate(`/game/${gameId}`);
   };
 
+  const handleClearFilters = () => {
+    const newParams = new URLSearchParams(searchParams);
+    newParams.delete('platform');
+    newParams.delete('genre');
+    setSearchParams(newParams);
+  };
+
   const filteredGames = infoGames.filter((game) => {
     const matchesPlatform =
       platformFilter === "All" || game.platform.includes(platformFilter);
@@ -106,7 +113,7 @@ const AllGames = () => {
 
       {/* Filtros */}
       {!searchQuery && (
-        <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center items-center">
           <CustomSelect
             options={platforms}
             value={platformFilter}
@@ -135,6 +142,14 @@ const AllGames = () => {
             }}
             placeholder="Todos os Gêneros"
           />
+          {(platformFilter !== 'All' || genreFilter !== 'All') && (
+            <button
+              onClick={handleClearFilters}
+              className="bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-600 transition-colors text-sm font-medium"
+            >
+              Limpar Filtros
+            </button>
+          )}
         </div>
       )}
 

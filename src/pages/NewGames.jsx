@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 import infoGames from "../data/InfoGames";
 import RecentGameCard from "../components/RecentGameCard";
 import BackToTopButton from "../components/BackToTopButton";
@@ -10,7 +10,7 @@ const containerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.1,
+      staggerChildren: 0.03,
     },
   },
 };
@@ -22,32 +22,51 @@ const itemVariants = {
     opacity: 1,
     transition: {
       type: "spring",
-      stiffness: 100,
+      stiffness: 200,
     },
   },
 };
 
 const NewGames = () => {
   const navigate = useNavigate();
-  const [visibleGames, setVisibleGames] = useState(
-    parseInt(sessionStorage.getItem("visible_new_games"), 10) || 10
-  );
+
+  const smoothScroll = (targetPosition, duration) => {
+    const startPosition = window.pageYOffset;
+    const distance = targetPosition - startPosition;
+    let startTime = null;
+
+    const animation = (currentTime) => {
+      if (startTime === null) startTime = currentTime;
+      const timeElapsed = currentTime - startTime;
+      const run = ease(timeElapsed, startPosition, distance, duration);
+      window.scrollTo(0, run);
+      if (timeElapsed < duration) requestAnimationFrame(animation);
+    };
+
+    const ease = (t, b, c, d) => {
+      t /= d / 2;
+      if (t < 1) return (c / 2) * t * t * t + b;
+      t -= 2;
+      return (c / 2) * (t * t * t + 2) + b;
+    };
+
+    requestAnimationFrame(animation);
+  };
 
   useEffect(() => {
-    sessionStorage.setItem("visible_new_games", visibleGames);
-  }, [visibleGames]);
-
+    const scrollPosition = sessionStorage.getItem("scrollPosition_newGames");
+    if (scrollPosition) {
+      smoothScroll(parseInt(scrollPosition, 10), 1200);
+      sessionStorage.removeItem("scrollPosition_newGames");
+    }
+  }, []);
 
   const handleGameClick = (gameId) => {
+    sessionStorage.setItem("scrollPosition_newGames", window.scrollY);
     navigate(`/game/${gameId}`);
   };
 
   const recentGames = infoGames.filter((game) => game.isNew);
-  const gamesToShow = recentGames.slice(0, visibleGames);
-
-  const handleLoadMore = () => {
-    setVisibleGames((prev) => prev + 10);
-  };
 
   return (
     <div className="bg-gray-900 min-h-screen px-4 sm:px-6 pt-24 pb-10">
@@ -65,10 +84,10 @@ const NewGames = () => {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6"
+        className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6"
       >
-        {gamesToShow.length > 0 ? (
-          gamesToShow.map((game) => (
+        {recentGames.length > 0 ? (
+          recentGames.map((game) => (
             <motion.div variants={itemVariants} key={game.id}>
               <RecentGameCard
                 game={game}
@@ -82,23 +101,6 @@ const NewGames = () => {
           </p>
         )}
       </motion.div>
-
-      {/* Botão Ver Mais */}
-      {visibleGames < recentGames.length && (
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5, duration: 0.5 }}
-          className="text-center mt-8"
-        >
-          <button
-            onClick={handleLoadMore}
-            className="bg-blue-600 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-700 transition-colors duration-300"
-          >
-            Ver Mais
-          </button>
-        </motion.div>
-      )}
 
       <BackToTopButton />
     </div>

@@ -74,7 +74,7 @@ const Home = () => {
 
   return (
     <div className="bg-gray-900 flex flex-col min-h-screen">
-      <div className="pt-20 flex-grow">
+      <div className="pt-16 flex-grow">
         <div className="mb-12">
           <Banner />
         </div>
