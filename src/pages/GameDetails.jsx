@@ -72,6 +72,14 @@ const GameDetails = () => {
         });
     };
 
+    const [copied, setCopied] = useState(false);
+
+    const copyToClipboard = (text) => {
+        navigator.clipboard.writeText(text);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+    };
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -252,9 +260,25 @@ const GameDetails = () => {
 
                         {/* Senha */}
                         {game.senha && (
-                            <div className="mb-4 text-sm">
-                                <span className="text-white font-medium">Senha: </span>
-                                <span className="text-white">{game.senha}</span>
+                            <div className="relative mb-4">
+                                <div
+                                    onClick={() => copyToClipboard(game.senha)}
+                                    className="bg-gray-700 rounded-md px-3 py-2 cursor-pointer hover:bg-gray-600 transition-colors duration-200 flex items-center justify-between group"
+                                >
+                                    <div className="flex items-center gap-2">
+                                        <span className="text-gray-400 text-xs">Senha:</span>
+                                        <span className="text-white font-mono text-sm font-semibold">{game.senha}</span>
+                                    </div>
+                                    <svg className="w-4 h-4 text-gray-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                                    </svg>
+                                </div>
+
+                                {copied && (
+                                    <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-green-500 text-white text-xs px-3 py-1 rounded shadow-lg animate-fade-in">
+                                        Copiado! ✓
+                                    </div>
+                                )}
                             </div>
                         )}
 

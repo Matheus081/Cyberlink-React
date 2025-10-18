@@ -5,7 +5,7 @@ import { useScroll } from '../hooks/useScroll';
 const PlatformGameCard = ({ game, onClick }) => {
   const scrollRef = useScroll();
   const [imageLoaded, setImageLoaded] = useState(false);
-  
+
   const handleClick = () => {
     if (game?.id && onClick) {
       onClick(game.id);
@@ -26,12 +26,12 @@ const PlatformGameCard = ({ game, onClick }) => {
       className="flex-shrink-0 w-48 sm:w-56 md:w-60 cursor-pointer group"
     >
       <div className="relative w-full aspect-[2/3] rounded-lg overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
-        
+
         {/* Skeleton loader */}
         {!imageLoaded && (
           <div className="absolute inset-0 bg-gradient-to-r from-gray-800 via-gray-700 to-gray-800 animate-pulse" />
         )}
-        
+
         {/* Imagem com tratamento avançado */}
         <img
           src={game.image}
@@ -45,10 +45,10 @@ const PlatformGameCard = ({ game, onClick }) => {
             willChange: 'transform'
           }}
         />
-        
+
         {/* Gradiente sutil na parte inferior */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-        
+
         {/* Brilho sutil no hover */}
         <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
       </div>

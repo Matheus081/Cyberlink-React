@@ -67,15 +67,21 @@ const AllGames = () => {
     setSearchParams(newParams);
   };
 
+  const normalizeText = (str) =>
+    str?.toString().toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
   const filteredGames = infoGames.filter((game) => {
     const matchesPlatform =
       platformFilter === "All" || game.platform.includes(platformFilter);
     const matchesGenre =
       genreFilter === "All" ||
       (Array.isArray(game.genre) && game.genre.includes(genreFilter));
-    const matchesSearchTerm = game.title
-      .toLowerCase()
-      .includes(searchQuery.toLowerCase());
+    const matchesSearchTerm =
+      normalizeText(game.title).includes(normalizeText(searchQuery)) ||
+      (game.tags &&
+        game.tags.some((tag) =>
+          normalizeText(tag).includes(normalizeText(searchQuery))
+        ));
     return matchesPlatform && matchesGenre && matchesSearchTerm;
   });
 

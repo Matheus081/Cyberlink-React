@@ -158,7 +158,86 @@ import Wolverine from "../assets/xmenwolverine/wolverine.jpg"
 import WolverineDesktop from "../assets/xmenwolverine/wolverinedesktop.jpg"
 import WolverineGameplay1 from "../assets/xmenwolverine/wolverinegameplay1.jpg"
 import WolverineGameplay2 from "../assets/xmenwolverine/wolverinegameplay2.jpg"
-
+import TheLegendOfZeldaOcarina from "../assets/thelegendofzeldaocarinaoftime/thelegendofzeldaocarina.jpg"
+import TheLegendOfZeldaOcarinaDesktop from "../assets/thelegendofzeldaocarinaoftime/thelegendofzeldaocarinadesktop.jpg"
+import TheLegendOfZeldaOcarinaGameplay1 from "../assets/thelegendofzeldaocarinaoftime/thelegendofzeldaocarinagameplay1.jpg"
+import TheLegendOfZeldaOcarinaGameplay2 from "../assets/thelegendofzeldaocarinaoftime/thelegendofzeldaocarinagameplay2.jpg"
+import BanjoKazooie from "../assets/banjokazooie/banjokazooie.jpg"
+import BanjoKazooieDesktop from "../assets/banjokazooie/banjokazooiedesktop.jpg"
+import BanjoKazooieGameplay1 from "../assets/banjokazooie/banjokazooiegameplay1.jpg"
+import BanjoKazooieGameplay2 from "../assets/banjokazooie/banjokazooiegameplay2.jpg"
+import PapereMario from "../assets/paperemario/paperemario.jpg"
+import PapereMarioDesktop from "../assets/paperemario/paperemariodesktop.jpg"
+import PapereMarioGameplay1 from "../assets/paperemario/paperemariogameplay1.jpg"
+import PapereMarioGameplay2 from "../assets/paperemario/paperemariogameplay2.jpg"
+import TheLegendOfZeldaTheMinish from "../assets/thelegendofzeldatheminishcap/thelegendofzeldatheminishcap.jpg"
+import TheLegendOfZeldaTheMinishDesktop from "../assets/thelegendofzeldatheminishcap/thelegendofzeldatheminishcapdesktop.jpg"
+import TheLegendOfZeldaTheMinishGameplay1 from "../assets/thelegendofzeldatheminishcap/thelegendofzeldatheminishcapgameplay1.jpg"
+import TheLegendOfZeldaTheMinishGameplay2 from "../assets/thelegendofzeldatheminishcap/thelegendofzeldatheminishcapgameplay2.jpg"
+import PokemonFireRed from "../assets/pokemonfirered/pokemonfirered.jpg"
+import PokemonFireRedDesktop from "../assets/pokemonfirered/pokemonfirereddesktop.jpg"
+import PokemonFireRedGameplay1 from "../assets/pokemonfirered/pokemonfireredgameplay1.jpg"
+import PokemonFireRedGameplay2 from "../assets/pokemonfirered/pokemonfireredgameplay2.jpg"
+import BreathOfFire from "../assets/breathoffire/breathoffire.jpg"
+import BreathOfFireDesktop from "../assets/breathoffire/breathoffiredesktop.jpg"
+import BreathOfFireGameplay1 from "../assets/breathoffire/breathoffiregameplay1.jpg"
+import BreathOfFireGameplay2 from "../assets/breathoffire/breathoffiregameplay2.jpg"
+import BreathOfFire2 from "../assets/breathoffire2/breathoffire2.jpg"
+import BreathOfFire2Desktop from "../assets/breathoffire2/breathoffire2desktop.jpg"
+import BreathOfFire2Gameplay1 from "../assets/breathoffire2/breathoffire2gameplay1.jpg"
+import BreathOfFire2Gameplay2 from "../assets/breathoffire2/breathoffire2gameplay2.jpg"
+import DonkeyKongCountry3 from "../assets/donkeykongcountry3/donkeykongcountry3.jpg"
+import DonkeyKongCountry3Desktop from "../assets/donkeykongcountry3/donkeykongcountry3desktop.jpg"
+import DonkeyKongCountry3Gameplay1 from "../assets/donkeykongcountry3/donkeykongcountry3gameplay1.jpg"
+import DonkeyKongCountry3Gameplay2 from "../assets/donkeykongcountry3/donkeykongcountry3gameplay2.jpg"
+import TheJungleBook from "../assets/thejunglebook/thejunglebook.jpg"
+import TheJungleBookDesktop from "../assets/thejunglebook/thejunglebookdesktop.jpg"
+import TheJungleBookGemaplay1 from "../assets/thejunglebook/thejunglebookgameplay1.jpg"
+import TheJungleBookGemaplay2 from "../assets/thejunglebook/thejunglebookgameplay2.jpg"
+import LuigisMansion from "../assets/luigismansion/luigismansion.jpg"
+import LuigisMansionDesktop from "../assets/luigismansion/luigismansiondesktop.jpg"
+import LuigisMansionGameplay1 from "../assets/luigismansion/luigismansiongameplay1.jpg"
+import LuigisMansionGameplay2 from "../assets/luigismansion/luigismansiongameplay2.jpg"
+import HarryPotter from "../assets/harrypotterandthechambreofsecrets/harrypotter.jpg"
+import HarryPotterDesktop from "../assets/harrypotterandthechambreofsecrets/harrypotterdesktop.jpg"
+import HarryPotterGameplay1 from "../assets/harrypotterandthechambreofsecrets/harrypottergameplay1.jpg"
+import HarryPotterGameplay2 from "../assets/harrypotterandthechambreofsecrets/harrypottergameplay2.jpg"
+import TheSimpsonsHitAndRun from "../assets/thesimpsonshitandrun/thesimpsonshitandrun.jpg"
+import TheSimpsonsHitAndRunDesktop from "../assets/thesimpsonshitandrun/thesimpsonshitandrundesktop.jpg"
+import TheSimpsonsHitAndRunGameplay1 from "../assets/thesimpsonshitandrun/thesimpsonshitandrungameplay1.jpg"
+import TheSimpsonsHitAndRunGameplay2 from "../assets/thesimpsonshitandrun/thesimpsonshitandrungameplay2.jpg"
+import DisneysPkOutOfTheShadows from "../assets/disneyspkoutoftheshadows/disneyspkoutoftheshadows.jpg"
+import DisneysPkOutOfTheShadowsDesktop from "../assets/disneyspkoutoftheshadows/disneyspkoutoftheshadowsdesktop.jpg"
+import DisneysPkOutOfTheShadowsGameplay1 from "../assets/disneyspkoutoftheshadows/disneyspkoutoftheshadowsgameplay1.jpg"
+import DisneysPkOutOfTheShadowsGameplay2 from "../assets/disneyspkoutoftheshadows/disneyspkoutoftheshadowsgameplay2.jpg"
+import MetroidPrime2Echoes from "../assets/metroidprime2echoes/metroidprime2echoes.jpg"
+import MetroidPrime2EchoesDesktop from "../assets/metroidprime2echoes/metroidprime2echoesdesktop.jpg"
+import MetroidPrime2EchoesGameplay1 from "../assets/metroidprime2echoes/metroidprime2echoesgameplay1.jpg"
+import MetroidPrime2EchoesGameplay2 from "../assets/metroidprime2echoes/metroidprime2echoesgameplay2.jpg"
+import MimorityReportEverybodyRuns from "../assets/mimorityreporteverybodyruns/mimorityreporteverybodyruns.jpg";
+import MimorityReportEverybodyRunsDesktop from "../assets/mimorityreporteverybodyruns/mimorityreporteverybodyrunsdesktop.jpg"
+import MimorityReportEverybodyRunsGameplay1 from "../assets/mimorityreporteverybodyruns/mimorityreporteverybodyrunsgameplay1.jpg";
+import MimorityReportEverybodyRunsGameplay2 from "../assets/mimorityreporteverybodyruns/mimorityreporteverybodyrunsgameplay2.jpg";
+import TheIncredibles from "../assets/theincredibles/theincredibles.jpg"
+import TheIncrediblesDesktop from "../assets/theincredibles/theincrediblesdesktop.jpg"
+import TheIncrediblesGameplay1 from "../assets/theincredibles/theincrediblesgameplay1.jpg"
+import TheIncrediblesGameplay2 from "../assets/theincredibles/theincrediblesgameplay2.jpg"
+import ratatouillegc from "../assets/ratatouillegc/ratatouillegc.jpg"
+import ratatouillegcDesktop from "../assets/ratatouillegc/ratatouillegcdesktop.jpg"
+import ratatouillegcGameplay1 from "../assets/ratatouillegc/ratatouillegcgameplay1.jpg"
+import ratatouillegcGameplay2 from "../assets/ratatouillegc/ratatouillegcgameplay2.jpg"
+import finalfantasy from "../assets/finalfantasy/finalfantasy.jpg"
+import finalfantasydesktop from "../assets/finalfantasy/finalfantasydesktop.jpg"
+import finalfantasygameplay1 from "../assets/finalfantasy/finalfantasygameplay1.jpg"
+import finalfantasygameplay2 from "../assets/finalfantasy/finalfantasygameplay2.jpg"
+import battletoads from "../assets/battletoads/battletoads.jpg"
+import battletoadsdesktop from "../assets/battletoads/battletoadsdesktop.jpg"
+import battletoadsgameplay1 from "../assets/battletoads/battletoadsgameplay1.jpg"
+import battletoadsgameplay2 from "../assets/battletoads/battletoadsgameplay2.jpg"
+import lolo3 from "../assets/lolo3/lolo3.jpg"
+import lolo3desktop from "../assets/lolo3/lolo3desktop.jpg"
+import lolo3gameplay1 from "../assets/lolo3/lolo3gameplay1.jpg"
+import lolo3gameplay2 from "../assets/lolo3/lolo3gameplay2.jpg"
 
 
 const info = [
@@ -174,7 +253,6 @@ const info = [
         image: Streets,
         platform: "Android",
         genre: ["Ação", "Luta", "Beat 'em up"],
-        isNew: true,
         rank: 6,
         size: "1.53 GB",
         gallery: [
@@ -184,6 +262,7 @@ const info = [
         ],
         youtubeId: "FGm9pPggapw",
         downloadLink: "https://drive.google.com/file/d/159o5CJlLiTGmpeAHxguz-2EBhkUIr9l9/view?usp=drive_link",
+        tags: ["streets of rage 4", "streets of rage", "beat em up", "luta", "acao", "co-op"],
     },
     {
         id: "Dead Cells",
@@ -196,7 +275,6 @@ const info = [
 
         genre: ["Roguelike & Roguelite", "Ação", "Plataforma", "Metroidvania"],
         platform: "Android",
-        isNew: true,
         rank: 8,
         size: "1.91 GB",
         downloadLink: "https://www.mediafire.com/file/zngod238i8xj8ag/com.playdigious.deadcells.mobile_3.3.15-APK_Award.apk/file",
@@ -206,6 +284,7 @@ const info = [
             "https://assets1.ignimgs.com/2019/05/07/deadcells-01-1557252247674.jpg"
         ],
         youtubeId: "RvGaSPTcTxc",
+        tags: ["dead cells", "roguelike", "metroidvania", "acao", "plataforma"],
     },
     {
         id: "Bright Memory Infinite",
@@ -220,13 +299,13 @@ const info = [
         platform: "Android",
         size: "2.25 GB",
         downloadLink: "https://drive.google.com/file/d/1dQtiChtusKbY2Md1QycMGjpvFdL7lVqY/view?usp=sharing",
-        isNew: true,
         gallery: [
             BrightDesktop,
             BrightGameplay1,
             BrightGameplay2
         ],
         youtubeId: "R1-e7AzEgBE",
+        tags: ["bright memory infinite", "fps", "acao", "hack and slash"],
     },
     {
         id: "Evoland",
@@ -241,13 +320,13 @@ const info = [
         platform: "Android",
         size: "47 MB",
         downloadLink: "https://www.dropbox.com/scl/fi/j0s7d9sxq2bt1w8x7bsrp/Evoland_1.7.7.apk?rlkey=ltsqqf3u9w0fxaefwvf5km8ik&st=v9smi3u8&dl=1",
-        isNew: true,
         gallery: [
             EvolandDesktop,
             "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVhPLJnl6W24NOKGqRaN6VX5Bw1r7h9LRWbaor_nIDqy3uwzFumgnGKcrQ0_SVy5nV7Nk4WDIkGWJ-ip9yIYGf2dl4QRpoJOfrs3Ep0A0LXrIyu-QTf5EXQ7aWueW0qqxgBOh6fyRuzQ8/s640/Evoland.jpg",
             "https://indiehellzone.com/wp-content/uploads/2023/02/img_2296.jpg?w=723"
         ],
         youtubeId: "gxBjDGc4YCg",
+        tags: ["evoland", "rpg", "aventura", "hack and slash"],
     },
     {
         id: "Hollow Knight",
@@ -262,7 +341,6 @@ const info = [
         platform: "Android",
         size: "931 MB",
         downloadLink: "https://www.mediafire.com/file/3xsdajg8vi52u8u/Hollow_Knight_-_APK_World.apk/file",
-        isNew: true,
         rank: 7,
         gallery: [
             HollowDesktop,
@@ -270,6 +348,7 @@ const info = [
             HollowGameplay2
         ],
         youtubeId: "lmUWn6xDI_Y",
+        tags: ["hollow knight", "metroidvania", "soulslike", "acao", "aventura", "plataforma"],
     },
     {
         id: "ScourgeBringer",
@@ -284,13 +363,13 @@ const info = [
         platform: "Android",
         size: "171 MB",
         downloadLink: "https://www.mediafire.com/file/752yyfdxl6l8uoa/ScourgeBringer+v1.61+by+Fallz+YT.apk/file",
-        isNew: true,
         gallery: [
             ScourgeDesktop,
             ScourgeGameplay1,
             ScourgeGameplay2
         ],
         youtubeId: "qFsmPwZ6Xv4",
+        tags: ["scourgebringer", "roguelike", "plataforma", "acao", "hack and slash"],
     },
     {
         id: "Resident Evil 1",
@@ -304,7 +383,6 @@ const info = [
         platform: "PlayStation 1",
         size: "359 MB",
         downloadLink: "https://archive.org/download/70_20210110/79.zip",
-        isNew: true,
         rank: 10,
         gallery: [
             ResidentDesktop,
@@ -315,6 +393,7 @@ const info = [
         EmuladorPC: "https://www.duckstation.org/windl",
         EmuladorMobile: "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation",
         Bios: "https://coolrom.com.au/bios/psx/",
+        tags: ["resident evil 1", "resident evil", "biohazard", "survival horror", "terror", "zumbi", "ps1", "playstation 1"],
     },
     {
         id: "Resident Evil 2",
@@ -329,7 +408,6 @@ const info = [
         platform: "PlayStation 1",
         size: "781 MB",
         downloadLink: "https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBdURHRWVpajFQWGllTU9qZ3N3ajRtYTFuMmc%5FZT1xQTVSTVY&cid=E2F5D4A3E811C6E0&id=E2F5D4A3E811C6E0%21120&parId=E2F5D4A3E811C6E0%21107&o=OneUp",
-        isNew: true,
         rank: 9,
         senha: "ch1n.com.br",
         gallery: [
@@ -341,6 +419,7 @@ const info = [
         EmuladorPC: "https://www.duckstation.org/windl",
         EmuladorMobile: "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation",
         Bios: "https://coolrom.com.au/bios/psx/",
+        tags: ["resident evil 2", "resident evil", "biohazard", "survival horror", "terror", "zumbi", "ps1", "playstation 1", "leon", "claire"],
     },
     {
         id: "Aladdin In Nasira's Revenge",
@@ -355,7 +434,6 @@ const info = [
         platform: "PlayStation 1",
         size: "355 MB",
         downloadLink: "https://www.mediafire.com/file/0pdtd0ii64ipv55/file",
-        isNew: true,
         gallery: [
             AladdinDesktop,
             AladdinGameplay1,
@@ -365,10 +443,11 @@ const info = [
         EmuladorPC: "https://www.duckstation.org/windl",
         EmuladorMobile: "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation",
         Bios: "https://coolrom.com.au/bios/psx/",
+        tags: ["aladdin", "nasira's revenge", "disney", "plataforma", "aventura", "ps1", "playstation 1"],
     },
     {
         id: "Breath Of Fire 3",
-        title: "BREATH OF FIRE 3",
+        title: "BREATH OF FIRE III",
         image: Breath3,
 
         subtitle: "Breath of Fire 3 – Um RPG clássico que segue a jornada de Ryu, um jovem com a habilidade de se transformar em dragão. Explore um mundo vasto, enfrente inimigos desafiadores e descubra segredos antigos enquanto luta para proteger seu povo!",
@@ -379,7 +458,6 @@ const info = [
         platform: "PlayStation 1",
         size: "179 MB",
         downloadLink: "https://canalvantrox.blogspot.com/2019/11/breath-of-fire-3-pt-br-depois-de-quase.html#more",
-        isNew: true,
         gallery: [
             Breath3Desktop,
             Breath3Gameplay1,
@@ -389,10 +467,11 @@ const info = [
         EmuladorPC: "https://www.duckstation.org/windl",
         EmuladorMobile: "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation",
         Bios: "https://coolrom.com.au/bios/psx/",
+        tags: ["breath of fire 3", "breath of fire", "rpg", "fantasia", "aventura", "ps1", "playstation 1"],
     },
     {
         id: "Breath Of Fire 4",
-        title: "BREATH OF FIRE 4",
+        title: "BREATH OF FIRE IV",
         image: Breath4,
 
         subtitle: "Breath of Fire 4 – A épica continuação da série de RPGs que segue a jornada de Ryu, um jovem com a habilidade de se transformar em dragão. Explore um mundo vasto, enfrente inimigos desafiadores e descubra segredos antigos enquanto luta para proteger seu povo!",
@@ -403,7 +482,6 @@ const info = [
         platform: "PlayStation 1",
         size: "182 MB",
         downloadLink: "https://www.mediafire.com/file/pgvzpq2qpn6qm62/BOF4_BR.rar",
-        isNew: true,
         gallery: [
             Breath4Desktop,
             Breath4Gameplay1,
@@ -413,6 +491,7 @@ const info = [
         EmuladorPC: "https://www.duckstation.org/windl",
         EmuladorMobile: "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation",
         Bios: "https://coolrom.com.au/bios/psx/",
+        tags: ["breath of fire 4", "breath of fire", "rpg", "fantasia", "aventura", "ps1", "playstation 1"],
     },
     {
         id: "Alundra",
@@ -427,7 +506,6 @@ const info = [
         platform: "PlayStation 1",
         size: "274 MB",
         downloadLink: "https://www.mediafire.com/file/bh7e4bmdxwwex33/Alundra%20%5BU-Br%5D%20%5BSLUS-00553%5D.rar",
-        isNew: true,
         gallery: [
             AlundraDesktop,
             AlundraGameplay1,
@@ -437,6 +515,7 @@ const info = [
         EmuladorPC: "https://www.duckstation.org/windl",
         EmuladorMobile: "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation",
         Bios: "https://coolrom.com.au/bios/psx/",
+        tags: ["alundra", "rpg", "acao", "aventura", "ps1", "playstation 1"],
     },
     {
         id: "Resident Evil 3",
@@ -451,7 +530,6 @@ const info = [
         platform: "PlayStation 1",
         size: "418 MB",
         downloadLink: "https://archive.org/download/70_20210110/78.zip",
-        isNew: true,
         rank: 5,
         gallery: [
             Resident3Desktop,
@@ -462,6 +540,7 @@ const info = [
         EmuladorPC: "https://www.duckstation.org/windl",
         EmuladorMobile: "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation",
         Bios: "https://coolrom.com.au/bios/psx/",
+        tags: ["resident evil 3", "resident evil", "biohazard", "survival horror", "terror", "zumbi", "ps1", "playstation 1", "jill valentine", "nemesis"],
     },
     {
         id: "Castlevania Symphony of the Night",
@@ -476,7 +555,6 @@ const info = [
         platform: "PlayStation 1",
         size: "342 MB",
         downloadLink: "https://www.mediafire.com/file/ixm6za8ccvhrshh/14.rar/file",
-        isNew: true,
         rank: 4,
         gallery: [
             CastlevaniaDesktop,
@@ -487,6 +565,7 @@ const info = [
         EmuladorPC: "https://www.duckstation.org/windl",
         EmuladorMobile: "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation",
         Bios: "https://coolrom.com.au/bios/psx/",
+        tags: ["castlevania symphony of the night", "castlevania", "sotn", "metroidvania", "rpg", "acao", "aventura", "ps1", "playstation 1", "alucard"],
     },
     {
         id: "Diablo",
@@ -501,7 +580,6 @@ const info = [
         platform: "PlayStation 1",
         size: "423 MB",
         downloadLink: "https://archive.org/download/4_20210106/24.zip",
-        isNew: true,
         gallery: [
             DiabloDesktop,
             DiabloGameplay1,
@@ -511,6 +589,7 @@ const info = [
         EmuladorPC: "https://www.duckstation.org/windl",
         EmuladorMobile: "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation",
         Bios: "https://coolrom.com.au/bios/psx/",
+        tags: ["diablo", "rpg", "hack and slash", "acao", "ps1", "playstation 1"],
     },
     {
         id: "Alone in the Dark the New Nightmare",
@@ -525,7 +604,6 @@ const info = [
         platform: "PlayStation 1",
         size: "824 MB",
         downloadLink: "https://www.mediafire.com/file/q3975viiok13hlm/4.zip/file",
-        isNew: true,
         gallery: [
             AloneDesktop,
             AloneGameplay1,
@@ -535,6 +613,7 @@ const info = [
         EmuladorPC: "https://www.duckstation.org/windl",
         EmuladorMobile: "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation",
         Bios: "https://coolrom.com.au/bios/psx/",
+        tags: ["alone in the dark the new nightmare", "alone in the dark", "survival horror", "terror", "ps1", "playstation 1"],
     },
     {
         id: "Jackie Chan Stuntmaster",
@@ -549,7 +628,6 @@ const info = [
         platform: "PlayStation 1",
         size: "434 MB",
         downloadLink: "https://archive.org/download/36_20210109_202101/50.zip",
-        isNew: true,
         gallery: [
             JackieStuntmasterDesktop,
             JackieStuntmasterGameplay1,
@@ -559,6 +637,7 @@ const info = [
         EmuladorPC: "https://www.duckstation.org/windl",
         EmuladorMobile: "https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation",
         Bios: "https://coolrom.com.au/bios/psx/",
+        tags: ["jackie chan stuntmaster", "jackie chan", "luta", "acao", "aventura", "ps1", "playstation 1"],
     },
     {
         id: "God of War",
@@ -574,7 +653,6 @@ const info = [
         size: "3.19 GB",
         downloadLink: "https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBa3cxUmRXbFJ2a1piTmVfeUM3RE9OOTYwajQ%5FZT1mU3R5Nmg&cid=19F946A5D545354C&id=19F946A5D545354C%21108&parId=19F946A5D545354C%21107&o=OneUp",
         senha: "ch1n.com.br",
-        isNew: true,
         rank: 1,
         gallery: [
             Godofwar1Desktop,
@@ -585,6 +663,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["god of war", "gow", "kratos", "acao", "aventura", "hack and slash", "mitologia", "ps2", "playstation 2"],
     },
     {
         id: "God Of War II",
@@ -600,7 +679,6 @@ const info = [
         size: "6.38 GB",
         downloadLink: "https://jogostraduzidos.com/wp-content/uploads/2025/05/G_O_W_2.zip",
         senha: "ch1n.com.br",
-        isNew: true,
         rank: 2,
         gallery: [
             Godofwar2Desktop,
@@ -611,6 +689,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["god of war 2", "gow 2", "kratos", "acao", "aventura", "hack and slash", "mitologia", "ps2", "playstation 2"],
         externalApp: {
             name: "uTorrent",
             url: {
@@ -632,7 +711,6 @@ const info = [
         platform: "PlayStation 2",
         size: "2.51 GB",
         downloadLink: "https://onedrive.live.com/?authkey=%21ANxU8Cr4PG9P1UM&id=4A9C5AF26DA41AA6%21106&cid=4A9C5AF26DA41AA6&parId=root&parQt=sharedby&o=OneUp",
-        isNew: true,
         gallery: [
             ColossusDesktop,
             ColossusGameplay1,
@@ -641,7 +719,8 @@ const info = [
         youtubeId: "HaxK-B_DNcw",
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
-        Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download"
+        Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["shadow of the colossus", "sotc", "acao", "aventura", "mundo aberto", "ps2", "playstation 2"],
     },
     {
         id: "Black",
@@ -656,7 +735,6 @@ const info = [
         platform: "PlayStation 2",
         size: "993 MB",
         downloadLink: "https://www.mediafire.com/file/jbjss4rixxlifyw/Black_-_CANAL_CH1N.rar/file?dkey=3ik453cqrps&r=639",
-        isNew: true,
         rank: 3,
         gallery: [
             BlackDesktop,
@@ -666,7 +744,8 @@ const info = [
         youtubeId: "cAOcNtikSTg",
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
-        Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download"
+        Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["black", "fps", "tiro", "acao", "guerra", "ps2", "playstation 2"],
     },
     {
         id: "Jackie Chan Adventures",
@@ -681,7 +760,6 @@ const info = [
         platform: "PlayStation 2",
         size: "915 MB",
         downloadLink: "https://m.coolrom.com.au/roms/ps2/70473/Jackie_Chan_Adventures_%28Europe%29_%28En%2CFr%2CDe%2CEs%2CIt%2CNl%2CPt%29.php",
-        isNew: true,
         gallery: [
             JackieAdDesktop,
             JackieAdGameplay1,
@@ -690,7 +768,8 @@ const info = [
         youtubeId: "3ZSsbZAgBj4",
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
-        Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download"
+        Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["jackie chan adventures", "jackie chan", "aventura", "acao", "luta", "plataforma", "ps2", "playstation 2"],
     },
     {
         id: "Mafia",
@@ -705,7 +784,6 @@ const info = [
         platform: "PlayStation 2",
         size: "1,89 GB",
         downloadLink: "https://www.mediafire.com/file/07bki710v791awd/Mafia_-_CANAL_CH1N.rar/file",
-        isNew: true,
         gallery: [
             MafiaDesktop,
             MafiaGameplay1,
@@ -714,7 +792,8 @@ const info = [
         youtubeId: "QdtZUwMdptQ",
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
-        Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download"
+        Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["mafia", "crime", "mundo aberto", "acao", "aventura", "ps2", "playstation 2"],
     },
     {
         id: "Mortal Kombat Shaolin Monks",
@@ -729,7 +808,6 @@ const info = [
         platform: "PlayStation 2",
         size: "2.14 GB",
         downloadLink: "https://www.mediafire.com/file/imezexcc9sblykv/Mortal_Kombat_-_Shaolin_Monks_-_CANAL_CH1N.rar/file",
-        isNew: true,
         gallery: [
             mortalkombatshaolinDesktop,
             mortalkombatshaolinGameplay1,
@@ -739,6 +817,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["mortal kombat shaolin monks", "mortal kombat", "shaolin monks", "luta", "acao", "aventura", "ps2", "playstation 2"],
     },
     {
         id: "Bully",
@@ -754,7 +833,6 @@ const info = [
         size: "2.14 GB",
         senha: "jogostraduzidos.com",
         downloadLink: "https://www.mediafire.com/file/roj2voj9vv2944u/B-U-L-L-Y_jogostraduzidos.com-ch1n.rar/file",
-        isNew: true,
         gallery: [
             BullyDesktop,
             BullyGameplay1,
@@ -764,6 +842,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["bully", "rockstar", "mundo aberto", "acao", "aventura", "ps2", "playstation 2"],
     },
     {
         id: "Silent Hill 2",
@@ -778,7 +857,6 @@ const info = [
         platform: "PlayStation 2",
         size: "2.14 GB",
         downloadLink: "https://www.mediafire.com/file/glovewzcduxi2w6/Silent_Hill_2_PS2_Dublado.rar/file",
-        isNew: true,
         gallery: [
             hill2Desktop,
             hill2Gameplay1,
@@ -788,6 +866,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["silent hill 2", "silent hill", "survival horror", "terror", "psicologico", "ps2", "playstation 2"],
     },
     {
         id: "Silent Hill 3",
@@ -802,7 +881,6 @@ const info = [
         platform: "PlayStation 2",
         size: "1.88 GB",
         downloadLink: "https://www.mediafire.com/file/o65gemc0hzggw9q/Silent_Hill_3_Dublado.rar/file",
-        isNew: true,
         gallery: [
             hill3Desktop,
             hill3Gameplay1,
@@ -812,6 +890,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["silent hill 3", "silent hill", "survival horror", "terror", "psicologico", "ps2", "playstation 2"],
     },
     {
         id: "Jak 3",
@@ -826,7 +905,6 @@ const info = [
         platform: "PlayStation 2",
         size: "2.66 GB",
         downloadLink: "https://www.mediafire.com/file/1kcvbd8ufe66mq7/Jak_3_-_CANAL_CH1N.rar/file",
-        isNew: true,
         gallery: [
             jak3desktop,
             jak3gameplay1,
@@ -836,6 +914,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["jak 3", "jak and daxter", "plataforma", "aventura", "acao", "mundo aberto", "ps2", "playstation 2"],
     },
     {
         id: "Need For Speed Most Wanted",
@@ -850,7 +929,6 @@ const info = [
         platform: "PlayStation 2",
         size: "2.73 GB",
         downloadLink: "https://www.mediafire.com/file/dmwd08fcaovza7u/NFS_Most_Wantead_PS2_PTBR.rar/file",
-        isNew: true,
         gallery: [
             needmostdesktop,
             needmostgameplay1,
@@ -860,6 +938,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["need for speed most wanted", "nfs most wanted", "corrida", "mundo aberto", "acao", "ps2", "playstation 2"],
     },
     {
         id: "Need For Speed Underground 2",
@@ -874,7 +953,6 @@ const info = [
         platform: "PlayStation 2",
         size: "1.33 GB",
         downloadLink: "https://www.mediafire.com/file/dggb636n0nbbhhu/NFS_Underground_2_PS2_PTBR.rar/file",
-        isNew: true,
         gallery: [
             needundergrounddesktop,
             needundergroundgameplay1,
@@ -884,6 +962,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["need for speed underground 2", "nfs underground 2", "corrida", "mundo aberto", "tuning", "ps2", "playstation 2"],
     },
     {
         id: "Dragon Ball Z Budokai Tenkaichi 3",
@@ -898,7 +977,6 @@ const info = [
         platform: "PlayStation 2",
         size: "1.67 GB",
         downloadLink: "https://www.mediafire.com/file/jl0f552gejbubal/Dragon_Ball_Budokai_Tenkaichi_3_PS3_Dublado.rar/file",
-        isNew: true,
         gallery: [
             dragonballbudokai3desktop,
             dragonballbudokai3Gameplay1,
@@ -908,6 +986,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["dragon ball z budokai tenkaichi 3", "dbz bt3", "luta", "anime", "goku", "ps2", "playstation 2"],
     },
     {
         id: "Resident Evil Outbreak",
@@ -922,7 +1001,6 @@ const info = [
         platform: "PlayStation 2",
         size: "2.52 GB",
         downloadLink: "https://www.mediafire.com/file/d4u7m7oalumm0zu/Resident_Evil_Outbreak_Biohazard_PS2_PTBR.rar/file",
-        isNew: true,
         gallery: [
             residentoutbreakdesktop,
             residentoutbreakgameplay1,
@@ -932,6 +1010,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["resident evil outbreak", "resident evil", "biohazard", "survival horror", "terror", "zumbi", "co-op", "ps2", "playstation 2"],
     },
     {
         id: "Resident Evil 4",
@@ -946,16 +1025,16 @@ const info = [
         platform: "PlayStation 2",
         size: "2.89 GB",
         downloadLink: "https://www.mediafire.com/file/71vhdeqw51r0xqx/Biohazard_4_dublado.rar/file",
-        isNew: true,
         gallery: [
             Resident4Desktop,
             Resident4Gameplay1,
-            Resident4Gameplay2 
+            Resident4Gameplay2
         ],
         youtubeId: "Eqjeoz8FVu8",
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["resident evil 4", "resident evil", "biohazard", "survival horror", "terror", "zumbi", "ps2", "playstation 2", "leon"],
     },
     {
         id: "Obscure II",
@@ -971,7 +1050,6 @@ const info = [
         size: "1.36 GB",
         downloadLink: "https://www.mediafire.com/file/lcs2bqt5wle4oef/3+(BR)+(www.romsportugues.tk).7z/file",
         senha: "www.romsportugues.tk",
-        isNew: true,
         gallery: [
             Obscure2desktop,
             Obscure2Gameplay1,
@@ -981,6 +1059,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["obscure 2", "obscure", "survival horror", "terror", "co-op", "ps2", "playstation 2"],
     },
     {
         id: "Naruto Shippuden Ultimate Ninja 5",
@@ -995,7 +1074,6 @@ const info = [
         platform: "PlayStation 2",
         size: "897 MB",
         downloadLink: "https://www.mediafire.com/file/pmw9u1i7opof3z9/Naruto_Shippuden_-_Ultimate_Ninja_5_-_CANAL_CH1N.rar/file",
-        isNew: true,
         gallery: [
             NarutoShippuden5Desktop,
             NarutoShippuden5Gameplay1,
@@ -1005,6 +1083,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["naruto shippuden ultimate ninja 5", "naruto", "luta", "anime", "ps2", "playstation 2"],
     },
     {
         id: "Saint Seiya The Sanctuary",
@@ -1019,7 +1098,6 @@ const info = [
         platform: "PlayStation 2",
         size: "1.51 GB",
         downloadLink: "https://www.mediafire.com/file/zya7c5xj01ft9pr/Cavaleiros_Dos_Zodiaco_A_Saga_do_Santu%25C3%25A1rio_PS2_Dublado.rar/file",
-        isNew: true,
         gallery: [
             SaintSeiyaDesktop,
             SaintSeiyaGameplay1,
@@ -1029,6 +1107,7 @@ const info = [
         EmuladorPC: "https://pcsx2.net/downloads/",
         EmuladorMobile: "https://aethersx2.br.uptodown.com/android/download/85911617",
         Bios: "https://www.retrostic.com/pt/bios/pcsx2-playstation-2/download",
+        tags: ["saint seiya the sanctuary", "saint seiya", "cavaleiros do zodiaco", "luta", "anime", "ps2", "playstation 2"],
     },
     {
         id: "God Of War Ghost Of Sparta",
@@ -1043,7 +1122,6 @@ const info = [
         platform: "PSP",
         size: "1.09 GB",
         downloadLink: "https://archive.org/download/7-ch-1nn.blogspot.com_202011/17%20-%20ch1nn.blogspot.com.zip",
-        isNew: true,
         gallery: [
             GodofwarSpartaDesktop,
             GodofwarSpartaGameplay1,
@@ -1052,6 +1130,7 @@ const info = [
         youtubeId: "vFa7RFuJnw8",
         EmuladorPC: "https://www.ppsspp.org/download/",
         EmuladorMobile: "https://www.ppsspp.org/download/",
+        tags: ["god of war ghost of sparta", "god of war", "gow", "kratos", "acao", "aventura", "hack and slash", "psp"],
     },
     {
         id: "God Of War Chains Of Olympus",
@@ -1066,7 +1145,6 @@ const info = [
         platform: "PSP",
         size: "1.12 GB",
         downloadLink: "https://archive.org/download/7-ch-1nn.blogspot.com_202011/16%20-%20ch1nn.blogspot.com.zip",
-        isNew: true,
         gallery: [
             GodofwarOlympusDesktop,
             GodofwarOlympusGameplay1,
@@ -1076,6 +1154,7 @@ const info = [
         youtubeId: "QOKd1F7ftx4",
         EmuladorPC: "https://www.ppsspp.org/download/",
         EmuladorMobile: "https://www.ppsspp.org/download/",
+        tags: ["god of war chains of olympus", "god of war", "gow", "kratos", "acao", "aventura", "hack and slash", "psp"],
     },
     {
         id: "Dead To Rights Reckoning",
@@ -1090,7 +1169,6 @@ const info = [
         platform: "PSP",
         size: "93.94 MB",
         downloadLink: "https://www.mediafire.com/file/ajt3xn0bnc5ad8c/Dead_to_Right_Reckoning_PT.rar/file",
-        isNew: true,
         gallery: [
             deadtorightsdesktop,
             deadtorightsgameplay1,
@@ -1099,6 +1177,7 @@ const info = [
         youtubeId: "7bsUgUK4QRw",
         EmuladorPC: "https://www.ppsspp.org/download/",
         EmuladorMobile: "https://www.ppsspp.org/download/",
+        tags: ["dead to rights reckoning", "dead to rights", "tiro", "acao", "policial", "psp"],
     },
     {
         id: "Silent Hill Origens",
@@ -1113,7 +1192,6 @@ const info = [
         platform: "PSP",
         size: "716 MB",
         downloadLink: "https://archive.org/download/35-ch-1nn.blogspot.com/46%20-%20ch1nn.blogspot.com.zip",
-        isNew: true,
         gallery: [
             SilentHillOrigensDesktop,
             SilentHillOrigensGameplay1,
@@ -1122,6 +1200,7 @@ const info = [
         youtubeId: "Hl4A1U33S70",
         EmuladorPC: "https://www.ppsspp.org/download/",
         EmuladorMobile: "https://www.ppsspp.org/download/",
+        tags: ["silent hill origens", "silent hill", "survival horror", "terror", "psp"],
     },
     {
         id: "X-Men Origins Wolverine",
@@ -1136,7 +1215,6 @@ const info = [
         platform: "PSP",
         size: "421 MB",
         downloadLink: "https://archive.org/download/35-ch-1nn.blogspot.com/59%20-%20ch1nn.blogspot.com.zip",
-        isNew: true,
         gallery: [
             WolverineDesktop,
             WolverineGameplay1,
@@ -1145,6 +1223,476 @@ const info = [
         youtubeId: "g9FGuO8nWCM",
         EmuladorPC: "https://www.ppsspp.org/download/",
         EmuladorMobile: "https://www.ppsspp.org/download/",
+        tags: ["x-men origins wolverine", "x-men", "wolverine", "marvel", "super heroi", "acao", "hack and slash", "psp"],
+    },
+    {
+        id: "The Legend Of Zelda Ocarina Of Time",
+        title: "THE LEGEND OF ZELDA: OCARINA OF TIME",
+        image: TheLegendOfZeldaOcarina,
+
+        subtitle: "Uma jornada épica pelo tempo para salvar Hyrule do mal absoluto.",
+
+        sobre: "The Legend of Zelda: Ocarina of Time é um dos jogos mais icônicos da história dos videogames. Lançado em 1998 para o Nintendo 64, ele revolucionou o gênero de ação e aventura com sua jogabilidade inovadora, gráficos impressionantes para a época e uma trilha sonora inesquecível. A história acompanha Link, um jovem da Floresta Kokiri que recebe a missão de impedir os planos malignos de Ganondorf, o Rei dos Gerudos, que deseja obter a Triforce e dominar Hyrule. Para isso, Link precisa viajar no tempo com a lendária Ocarina do Tempo, explorando templos sagrados, resolvendo quebra-cabeças desafiadores e enfrentando poderosos inimigos. O jogo introduziu mecânicas inovadoras, como o sistema de Z-targeting para combates mais precisos, um vasto mundo aberto para exploração e uma narrativa épica que cativou milhões de jogadores. Até hoje, Ocarina of Time é considerado um dos melhores jogos já feitos, sendo referência para diversos títulos de aventura e RPG.",
+
+        genre: ["Ação", "Aventura", "RPG", "Mundo Aberto"],
+        platform: "Nintendo 64",
+        size: "23 MB",
+        downloadLink: "https://www.mediafire.com/file/dpd46iyrr6yc3dh/zelda64_pt.rar",
+        isNew: true,
+        gallery: [
+            TheLegendOfZeldaOcarinaDesktop,
+            TheLegendOfZeldaOcarinaGameplay1,
+            TheLegendOfZeldaOcarinaGameplay2
+        ],
+        youtubeId: "xjfiOseZgG0",
+        EmuladorPC: "https://www.freeroms.com/n64_roms.htm",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=org.mupen64plusae.v3.fzurita",
+        tags: ["the legend of zelda ocarina of time", "zelda", "ocarina of time", "nintendo 64", "n64", "aventura", "rpg", "mundo aberto"],
+    },
+    {
+        id: "Banjo Kazooie",
+        title: "BANJO KAZOOIE",
+        image: BanjoKazooie,
+
+        subtitle: "Junte-se a Banjo e Kazooie em uma jornada cheia de desafios, humor e mistérios para derrotar a bruxa Gruntilda e salvar Tooty!",
+
+        sobre: "Banjo-Kazooie é um clássico jogo de plataforma 3D lançado em 1998 para o Nintendo 64, desenvolvido pela Rare. O jogo segue as aventuras de Banjo, um urso bondoso, e Kazooie, sua parceira sarcástica e ágil, que vive dentro de sua mochila. Juntos, eles embarcam em uma jornada para resgatar Tooty, a irmã de Banjo, das garras da malvada bruxa Gruntilda, que planeja roubar sua beleza. O jogo é famoso por seus mundos vibrantes e cheios de segredos, sua jogabilidade inovadora e seu humor cativante. Os jogadores exploram diferentes fases coletando Jiggies (peças de quebra-cabeça), notas musicais e outros itens para desbloquear novos desafios. Com mecânicas únicas, como as habilidades combinadas da dupla e um level design impecável, Banjo-Kazooie se tornou um dos jogos mais amados do Nintendo 64 e um marco nos games de plataforma.",
+
+        genre: ["Ação", "Aventura", "Plataforma"],
+        platform: "Nintendo 64",
+        size: "15 MB",
+        downloadLink: "https://www.mediafire.com/file/k1eftqt59oa446i/Banj-Kaz_BR.rar",
+        isNew: true,
+        gallery: [
+            BanjoKazooieDesktop,
+            BanjoKazooieGameplay1,
+            BanjoKazooieGameplay2
+        ],
+        youtubeId: "xIOXpAG8d9o",
+        EmuladorPC: "https://www.freeroms.com/n64_roms.htm",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=org.mupen64plusae.v3.fzurita",
+        tags: ["banjo kazooie", "nintendo 64", "n64", "plataforma", "aventura"],
+    },
+    {
+        id: "Paper Mario",
+        title: "PAPER MARIO",
+        image: PapereMario,
+
+        subtitle: "Embarque em uma jornada única com Mario e seus amigos para derrotar Bowser, recuperar a Varinha Estelar e salvar o Reino dos Cogumelos em um mundo feito de papel!",
+
+        sobre: "Paper Mario é um RPG lançado para o Nintendo 64 em 2000 (Japão) e 2001 (América do Norte), desenvolvido pela Intelligent Systems e publicado pela Nintendo. O jogo combina mecânicas clássicas de RPG por turnos com um estilo visual único, onde os personagens e cenários parecem feitos de papel. Na história, Bowser rouba a Varinha Estelar e sequestra a Princesa Peach, tornando-se invencível. Cabe a Mario, com a ajuda de diversos aliados ao longo da jornada, recuperar os sete Espíritos Estelares e derrotar Bowser para restaurar a paz no Reino dos Cogumelos. O jogo é elogiado por seu combate estratégico, diálogos bem-humorados e design criativo. Paper Mario foi o primeiro título da aclamada série e se tornou um dos RPGs mais amados da Nintendo.",
+
+        genre: ["RPG", "Aventura", "Fantasia"],
+        platform: "Nintendo 64",
+        size: "19 MB",
+        downloadLink: "https://www.mediafire.com/file/ggef0qgo5i3wnta/Paper_Mario_64_BR.rar",
+        isNew: true,
+        gallery: [
+            PapereMarioDesktop,
+            PapereMarioGameplay1,
+            PapereMarioGameplay2
+        ],
+        youtubeId: "7nccGC9lN8Y",
+        EmuladorPC: "https://www.freeroms.com/n64_roms.htm",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=org.mupen64plusae.v3.fzurita",
+        tags: ["paper mario", "mario", "rpg", "nintendo 64", "n64", "aventura"],
+    },
+    {
+        id: "The Legend Of Zelda The Minish Cap",
+        title: "THE LEGEND OF ZELDA: THE MINISH CAP",
+        image: TheLegendOfZeldaTheMinish,
+
+        subtitle: "Aventure-se em Hyrule com o poder dos Minish, resolva enigmas, explore masmorras e enfrente Vaati para salvar a princesa Zelda!",
+
+        sobre: "The Legend of Zelda: The Minish Cap é um jogo de ação e aventura lançado para Game Boy Advance em 2004. Nesta jornada encantadora, Link embarca em uma missão para salvar o reino de Hyrule e resgatar a Princesa Zelda, que foi transformada em pedra pelo maligno feiticeiro Vaati. Com a ajuda do Minish Cap, um chapéu falante chamado Ezlo, Link ganha a habilidade de encolher ao tamanho minúsculo dos Minish, uma raça secreta de seres diminutos. Essa mecânica única adiciona novas camadas de exploração e quebra-cabeças, permitindo que o jogador descubra passagens ocultas e interaja com o mundo de maneiras inovadoras. O jogo mantém a clássica jogabilidade da série, com combate dinâmico, masmorras desafiadoras e itens icónicos como o Bumerangue e as Botas de Pegaso. Os gráficos vibrantes e a trilha sonora envolvente fazem de The Minish Cap uma das experiências mais memoráveis da franquia Zelda, consolidando-se como um dos melhores títulos do Game Boy Advance.",
+
+        genre: ["RPG", "Aventura", "Ação"],
+        platform: "Game Boy Advance",
+        size: "6 MB",
+        downloadLink: "https://gofile.io/d/sj1VX1",
+        isNew: true,
+        gallery: [
+            TheLegendOfZeldaTheMinishDesktop,
+            TheLegendOfZeldaTheMinishGameplay1,
+            TheLegendOfZeldaTheMinishGameplay2
+        ],
+        youtubeId: "2fHPa_6FkPc",
+        EmuladorPC: "https://www.freeroms.com/gba_roms.htm",
+        EmuladorMobile: "https://www.mediafire.com/file/7cfs2v9gv22szhg/MyBoy-v2.0.6-HeyPikachu.apk/file",
+        tags: ["the legend of zelda the minish cap", "zelda", "minish cap", "game boy advance", "gba", "aventura", "rpg"],
+    },
+    {
+        id: "Pokemon Fire Red",
+        title: "POKÉMON FIRE RED",
+        image: PokemonFireRed,
+
+        subtitle: "Reviva a jornada clássica de Pokémon em Kanto, capture, treine e batalhe para se tornar um Mestre Pokémon!",
+
+        sobre: "Pokémon FireRed é um remake aprimorado do clássico Pokémon Red, lançado para o Game Boy Advance em 2004. O jogo leva os jogadores de volta à região de Kanto, onde embarcam em uma jornada para se tornar um Mestre Pokémon. A jogabilidade principal envolve capturar, treinar e batalhar com mais de 150 espécies de Pokémon, enquanto desafia líderes de ginásio e frustra os planos da maligna Equipe Rocket. Com gráficos aprimorados, novas áreas para explorar e a adição de recursos modernos, como a capacidade de trocar Pokémon com outras versões, FireRed oferece uma experiência nostálgica e, ao mesmo tempo, renovada. É um título essencial para fãs da franquia e uma ótima porta de entrada para novos jogadores.",
+
+        genre: ["RPG", "Aventura", "Estratégia"],
+        platform: "Game Boy Advance",
+        size: "5 MB",
+        downloadLink: "https://www.mediafire.com/file/ffsyoyatn506ra4/Pokemon+Fire+Red+BR.rar",
+        isNew: true,
+        gallery: [
+            PokemonFireRedDesktop,
+            PokemonFireRedGameplay1,
+            PokemonFireRedGameplay2
+        ],
+        youtubeId: "MiHvNgOs1L8",
+        EmuladorPC: "https://www.freeroms.com/gba_roms.htm",
+        EmuladorMobile: "https://www.mediafire.com/file/7cfs2v9gv22szhg/MyBoy-v2.0.6-HeyPikachu.apk/file",
+        tags: ["pokemon", "fire red", "rpg", "nintendo", "game boy advance", "aventura", "estrategia"],
+    },
+    {
+        id: "Breath Of Fire",
+        title: "BREATH OF FIRE",
+        image: BreathOfFire,
+
+        subtitle: "Embarque em uma jornada épica com Ryu, descubra os segredos de sua linhagem dracônica e lute contra as forças da escuridão neste clássico RPG!",
+
+        sobre: "Breath of Fire é um clássico RPG desenvolvido pela Capcom, lançado originalmente em 1993 para o Super Nintendo e posteriormente para outras plataformas. A história acompanha Ryu, um jovem guerreiro que descobre ser o último descendente de uma antiga raça de dragões com o poder de se transformar em criaturas poderosas. Em sua jornada, ele busca resgatar sua irmã sequestrada e enfrenta o maléfico Império da Escuridão, que ameaça o equilíbrio do mundo. Com um sistema de combate por turnos, exploração de um vasto mundo e uma história rica em personagens carismáticos, Breath of Fire se tornou um dos RPGs mais queridos da época. O jogo introduziu mecânicas inovadoras, como a capacidade de recrutar aliados únicos, cada um com habilidades especiais para ajudar na aventura. Sua trilha sonora marcante e gráficos coloridos criam uma experiência imersiva que ainda cativa jogadores até hoje.",
+
+        genre: ["RPG", "Aventura", "Fantasia"],
+        platform: "Super Nintendo",
+        size: "980 KB",
+        downloadLink: "https://gofile.io/d/4HGWxa",
+        isNew: true,
+        gallery: [
+            BreathOfFireDesktop,
+            BreathOfFireGameplay1,
+            BreathOfFireGameplay2
+        ],
+        youtubeId: "wOEpDvCLYLc",
+        EmuladorPC: "https://coolrom.com.au/emulators/snes/36/ZSNES.php",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus",
+        tags: ["breath of fire", "rpg", "fantasia", "aventura", "snes", "super nintendo"],
+    },
+    {
+        id: "Breath Of Fire 2",
+        title: "BREATH OF FIRE II",
+        image: BreathOfFire2,
+
+        subtitle: "Descubra os segredos de um mundo corrompido, reúna aliados poderosos e liberte seu verdadeiro poder dracônico nesta épica jornada de RPG!",
+
+        sobre: "Breath of Fire II é a sequência do aclamado RPG da Capcom, lançado originalmente para o Super Nintendo em 1994. Ambientado centenas de anos após os eventos do primeiro jogo, a história acompanha Ryu, um jovem órfão com a habilidade de se transformar em dragão. Após o misterioso desaparecimento de seu pai e irmã, Ryu cresce em um mundo onde a fé na divindade Evans domina a sociedade. No entanto, ele logo descobre que há forças sombrias por trás dessa religião, e cabe a ele e seus aliados desvendarem a verdade e impedirem uma ameaça demoníaca que corrompe o mundo. Com um sistema de combate por turnos, Breath of Fire II expandiu as mecânicas do seu antecessor, introduzindo novas habilidades e um sistema de fusão que permite combinar personagens para criar versões mais poderosas. Além disso, o jogo trouxe uma inovação para a época: a possibilidade de construir e personalizar uma cidade, recrutando NPCs para habitá-la. A jornada é repleta de desafios, mas também de momentos emocionantes e personagens inesquecíveis, cada um com uma história única e um papel fundamental na batalha contra as forças do mal. Com gráficos aprimorados, uma trilha sonora marcante e um enredo profundo e maduro, Breath of Fire II se tornou um dos RPGs mais memoráveis da era 16-bit, conquistando fãs ao longo das gerações.",
+
+        genre: ["RPG", "Aventura", "Fantasia"],
+        platform: "Super Nintendo",
+        size: "1 MB",
+        downloadLink: "https://drive.google.com/file/d/1YffxwN2Ll_O0PkAFddICb-peJ5jOI5Ps/view",
+        isNew: true,
+        gallery: [
+            BreathOfFire2Desktop,
+            BreathOfFire2Gameplay1,
+            BreathOfFire2Gameplay2
+        ],
+        youtubeId: "ZwuXP8o6uQg",
+        EmuladorPC: "https://coolrom.com.au/emulators/snes/36/ZSNES.php",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus",
+        tags: ["breath of fire 2", "breath of fire", "rpg", "fantasia", "aventura", "snes", "super nintendo"],
+    },
+    {
+        id: "Donkey Kong Country 3",
+        title: "DONKEY KONG COUNTRY 3",
+        image: DonkeyKongCountry3,
+
+        subtitle: "Prepare-se para mais uma aventura épica com Diddy e Dixie Kong em Donkey Kong Country 3: Dixie Kong's Double Trouble! Explore novos mundos, enfrente desafios emocionantes e resgate a família Kong em uma jornada cheia de ação e diversão.",
+
+        sobre: "Donkey Kong Country 3: Dixie Kong’s Double Trouble! é o terceiro jogo da aclamada série de plataforma desenvolvida pela Rare e lançado para o Super Nintendo em 1996. Desta vez, os protagonistas são Dixie Kong e seu primo Kiddy Kong, que embarcam em uma jornada para resgatar Donkey Kong e Diddy Kong, sequestrados pelo maléfico KAOS, um robô misterioso controlado pelo vilão King K. Rool. A aventura se passa no Kremisfério do Norte, um novo mundo repleto de cenários variados, como florestas, cavernas, montanhas nevadas e fábricas abandonadas. O jogo mantém a jogabilidade clássica de plataforma da série, mas introduz novas mecânicas, como a possibilidade de nadar contra correntezas, utilizar barris especiais e explorar um mapa interativo com segredos escondidos. Cada personagem tem habilidades únicas: Dixie pode usar seu cabelo para planar, enquanto Kiddy é mais forte e pode quebrar obstáculos ou arremessar Dixie para alcançar locais inacessíveis. O jogo também traz novos animais ajudantes, desafios de coleta e batalhas épicas contra chefes criativos. Com gráficos impressionantes para a época, trilha sonora memorável e uma jogabilidade refinada, Donkey Kong Country 3 é um dos grandes clássicos do Super Nintendo e uma aventura imperdível para os fãs da série!",
+
+        genre: ["Ação", "Aventura", "Plataforma"],
+        platform: "Super Nintendo",
+        size: "5 MB",
+        downloadLink: "https://drive.google.com/file/d/1V5rLJokomM6No5vFc6rJaa6y2BvP__Y2/view",
+        isNew: true,
+        gallery: [
+            DonkeyKongCountry3Desktop,
+            DonkeyKongCountry3Gameplay1,
+            DonkeyKongCountry3Gameplay2
+        ],
+        youtubeId: "yIRtREO-bKw",
+        EmuladorPC: "https://coolrom.com.au/emulators/snes/36/ZSNES.php",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus",
+        tags: ["donkey kong country 3", "dkc3", "plataforma", "aventura", "snes", "super nintendo"],
+    },
+    {
+        id: "The Jungle Book",
+        title: "THE JUNGLE BOOK",
+        image: TheJungleBook,
+
+        subtitle: "Acompanhe Mogli em uma aventura selvagem pela selva, enfrentando desafios e perigos para encontrar seu verdadeiro lar!",
+
+        sobre: "The Jungle Book é um jogo de plataforma baseado no clássico filme da Disney, lançado para diversas plataformas nos anos 90, incluindo Super Nintendo, Mega Drive e Game Boy. O jogador assume o papel de Mogli, um jovem criado por lobos na selva, que embarca em uma aventura para encontrar a aldeia dos homens antes que o temível tigre Shere Khan o alcance. Ao longo do caminho, Mogli explora diferentes cenários inspirados no filme, como as densas florestas, templos misteriosos e rios traiçoeiros, enquanto enfrenta inimigos como macacos travessos e serpentes perigosas. Para se defender, ele pode coletar e lançar frutas contra os inimigos, além de contar com a ajuda de amigos icônicos como Baloo e Bagheera. Com gráficos coloridos, trilha sonora vibrante e uma jogabilidade desafiadora, The Jungle Book é um clássico dos jogos de plataforma, trazendo toda a magia da animação para os videogames.",
+
+        genre: ["Ação", "Aventura", "Plataforma"],
+        platform: "Super Nintendo",
+        size: "1 MB",
+        downloadLink: "https://drive.google.com/file/d/17PPDg4VtBivXzWAroWeI1jTKzQQmejuf/view",
+        isNew: true,
+        gallery: [
+            TheJungleBookDesktop,
+            TheJungleBookGemaplay1,
+            TheJungleBookGemaplay2
+        ],
+        youtubeId: "XGeKvXMx9l0",
+        EmuladorPC: "https://coolrom.com.au/emulators/snes/36/ZSNES.php",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=com.explusalpha.Snes9xPlus",
+        tags: ["the jungle book", "mogli", "disney", "plataforma", "aventura", "snes", "super nintendo"],
+    },
+    {
+        id: "Luigi's Mansion",
+        title: "LUIGI'S MANSION",
+        image: LuigisMansion,
+
+        subtitle: "Ajude Luigi a enfrentar seus medos e salvar Mario de uma mansão cheia de fantasmas e mistérios!",
+
+        sobre: "Luigi's Mansion é um jogo de ação e aventura lançado para o Nintendo GameCube em 2001. O jogo segue Luigi, o irmão tímido de Mario, que acaba herdeiro de uma mansão misteriosa depois de ganhar um sorteio. Ao chegar, ele descobre que a mansão está cheia de fantasmas, incluindo o próprio Mario, que foi capturado pelo Professor E. Gadd, um cientista excêntrico. Armado com um aspirador de pó especial, o Poltergust 3000, Luigi embarca em uma jornada para capturar os fantasmas e salvar seu irmão. O jogo mistura exploração, resolução de quebra-cabeças e combate contra fantasmas, com uma atmosfera assustadora e, ao mesmo tempo, cativante e engraçada. Luigi's Mansion é aclamado por sua jogabilidade inovadora, gráficos impressionantes para a época e pelo charme do protagonista, que ganhou uma nova luz ao ser colocado no centro de uma aventura cheia de suspense e humor.",
+
+        genre: ["Ação", "Aventura", "Quebra-Cabeça"],
+        platform: "Nintendo GameCube",
+        size: "1.36 GB",
+        downloadLink: "https://mdy48tn97.com/f/034jvnn6azv1xv",
+        isNew: true,
+        gallery: [
+            LuigisMansionDesktop,
+            LuigisMansionGameplay1,
+            LuigisMansionGameplay2
+        ],
+        youtubeId: "rphBPKyu_VU",
+        EmuladorPC: "https://br.dolphin-emu.org/",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu",
+    },
+    {
+        id: "Harry Potter And The Chamber Of Secrets",
+        title: "HARRY POTTER AND THE CHAMBER OF SECRETS",
+        image: HarryPotter,
+
+        subtitle: "Mergulhe em uma aventura mágica para desvendar os segredos da Câmara Secreta e enfrentar o mal que ameaça Hogwarts!",
+
+        sobre: "Harry Potter and the Chamber of Secrets é o segundo jogo da série de adaptações para videogame baseadas nos livros de J.K. Rowling, lançado para várias plataformas, incluindo PlayStation 2, GameCube, PC e GBA. O jogo segue as aventuras de Harry Potter durante seu segundo ano na Escola de Magia e Bruxaria de Hogwarts, onde ele descobre uma série de eventos misteriosos relacionados à Câmara Secreta. Ao lado de seus amigos Ron e Hermione, Harry deve explorar o castelo, resolver enigmas, enfrentar criaturas mágicas e derrotar o malvado Tom Riddle, cujo espírito reside na Câmara Secreta, tentando libertar um monstro temível que ameaça a vida dos estudantes de Hogwarts. O jogo mistura elementos de aventura, exploração, luta com feitiçaria e resolução de quebra-cabeças. A jogabilidade permite que os jogadores utilizem feitiços, explorem diversos ambientes e enfrentem inimigos enquanto seguem a trama do livro. Harry Potter and the Chamber of Secrets é um dos jogos mais amados da série, proporcionando uma experiência envolvente para os fãs da franquia.",
+
+        genre: ["Ação", "Aventura", "Quebra-Cabeça", "Fantasia"],
+        platform: "Nintendo GameCube",
+        size: "1.5 GB",
+        downloadLink: "https://gofile.io/d/3gDUrO",
+        isNew: true,
+        gallery: [
+            HarryPotterDesktop,
+            HarryPotterGameplay1,
+            HarryPotterGameplay2
+        ],
+        youtubeId: "M8KCnyaLOUI",
+        EmuladorPC: "https://br.dolphin-emu.org/",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu",
+    },
+    {
+        id: "The Simpsons Hit And Run",
+        title: "THE SIMPSONS - HIT & RUN",
+        image: TheSimpsonsHitAndRun,
+
+        subtitle: "Mergulhe em uma aventura maluca por Springfield, enfrentando mistérios, missões insanas e muito humor com a família Simpson!",
+
+        sobre: "The Simpsons: Hit & Run é um jogo de ação e aventura lançado em 2003 para diversas plataformas, incluindo PlayStation 2, GameCube e Xbox. Inspirado pela famosa série de TV Os Simpsons, o jogo mistura corridas, exploração e missões, em um estilo que lembra jogos como Grand Theft Auto, mas com o toque irreverente e cômico da família Simpson. A história gira em torno de Homer, Marge, Bart, Lisa e Maggie, que devem investigar uma série de eventos misteriosos em Springfield, onde robôs estão invadindo a cidade e causando caos. Ao longo do jogo, os jogadores assumem o papel de diferentes personagens da série, cada um com habilidades e veículos próprios, enquanto exploram uma versão aberta da cidade, completam missões e enfrentam desafios. Com humor característico, referências à série e uma jogabilidade divertida, The Simpsons: Hit & Run se tornou um dos jogos mais queridos pelos fãs da franquia e um clássico dos jogos baseados em séries de TV.",
+
+        genre: ["Ação", "Aventura", "Mundo Aberto"],
+        platform: "Nintendo GameCube",
+        size: "909 MB",
+        downloadLink: "https://mdy48tn97.com/f/vk9e3q4zugklzm",
+        isNew: true,
+        gallery: [
+            TheSimpsonsHitAndRunDesktop,
+            TheSimpsonsHitAndRunGameplay1,
+            TheSimpsonsHitAndRunGameplay2
+        ],
+        youtubeId: "DVSz-GMlAYY",
+        EmuladorPC: "https://br.dolphin-emu.org/",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu",
+    },
+    {
+        id: "Pk Out Of The Shadows",
+        title: "PK OUT OF THE SHADOWS",
+        image: DisneysPkOutOfTheShadows,
+
+        subtitle: "Assuma o papel de PK, a versão super-heroica do Pato Donald, e enfrente uma invasão alienígena repleta de ação e desafios!",
+
+        sobre: "Disney's PK: Out of the Shadows é um jogo de ação e aventura lançado em 2002 para PlayStation 2, GameCube e Windows. Baseado no personagem Paperinik (ou PK), a versão super-heroica do Pato Donald, o jogo coloca os jogadores no controle do herói enquanto ele enfrenta uma invasão alienígena liderada pelos vilões Evronianos. Armado com a poderosa X-Transformer, uma arma futurista concedida por um misterioso guia virtual chamado Uno, PK deve atravessar diversas fases cheias de desafios, derrotar inimigos e salvar cientistas sequestrados pelos alienígenas. O jogo combina plataforma 3D, tiro em terceira pessoa e exploração, trazendo um estilo mais sério e futurista para o universo Disney. Disney’s PK: Out of the Shadows conquistou fãs por sua jogabilidade dinâmica e por apresentar uma versão mais heroica e tecnológica do clássico Pato Donald.",
+
+        genre: ["Ação", "Aventura", "Tiro em Terceira Pessoa"],
+        platform: "Nintendo GameCube",
+        size: "1.5 GB",
+        downloadLink: "https://gofile.io/d/SIRmD1",
+        isNew: true,
+        gallery: [
+            DisneysPkOutOfTheShadowsDesktop,
+            DisneysPkOutOfTheShadowsGameplay1,
+            DisneysPkOutOfTheShadowsGameplay2
+        ],
+        youtubeId: "LnQGDs586Ec",
+        EmuladorPC: "https://br.dolphin-emu.org/",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu",
+    },
+    {
+        id: "Metroid Prime 2 Echoes",
+        title: "METROID PRIME 2 - ECHOES",
+        image: MetroidPrime2Echoes,
+
+        subtitle: "Explore o misterioso planeta Aether, enfrente inimigos sombrios e encare sua maior ameaça: a enigmática Dark Samus!",
+
+        sobre: "Metroid Prime 2: Echoes é um jogo de ação e aventura em primeira pessoa lançado em 2004 para o Nintendo GameCube, desenvolvido pela Retro Studios e publicado pela Nintendo. É a sequência de Metroid Prime e traz de volta a caçadora de recompensas Samus Aran, que desta vez é enviada ao planeta Aether, um mundo devastado por uma guerra entre duas raças: os Luminoth e os Ing. O jogo introduz uma mecânica de mundo duplo, onde Samus precisa alternar entre as versões Light Aether e Dark Aether, cada uma com desafios e inimigos únicos. Além disso, Echoes introduz a Dark Samus, uma antagonista poderosa que desafia Samus ao longo da jornada. Com combates intensos, exploração envolvente e um design de mundo detalhado, Metroid Prime 2: Echoes é um dos títulos mais desafiadores e imersivos da franquia, sendo elogiado por sua atmosfera sombria, jogabilidade aprimorada e narrativa profunda.",
+
+        genre: ["Ação", "Aventura", "FPS"],
+        platform: "Nintendo GameCube",
+        size: "1.36 GB",
+        downloadLink: "https://mdy48tn97.com/f/z1xl9vn4ueg783",
+        isNew: true,
+        gallery: [
+            MetroidPrime2EchoesDesktop,
+            MetroidPrime2EchoesGameplay1,
+            MetroidPrime2EchoesGameplay2
+        ],
+        youtubeId: "-vx961k07Bg",
+        EmuladorPC: "https://br.dolphin-emu.org/",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu",
+    },
+    {
+        id: "Mimority Report Everybody Runs",
+        title: "MIMORITY REPORT: EVERYBODY RUNS",
+        image: MimorityReportEverybodyRuns,
+
+        subtitle: "Mergulhe no futuro distópico de Minority Report, enfrente perseguições intensas e resolva uma conspiração usando o sistema de pré-crime!",
+
+        sobre: "Minority Report: Everybody Runs é um jogo de ação e aventura lançado em 2002 para PlayStation 2, Xbox, GameCube e PC, baseado no filme Minority Report, dirigido por Steven Spielberg e estrelado por Tom Cruise. O jogo segue o protagonista John Anderton, interpretado por Cruise no filme, enquanto ele tenta descobrir e combater uma conspiração que envolve um sistema de pré-crime, onde crimes são previstos antes de acontecerem. No jogo, os jogadores assumem o papel de Anderton e enfrentam uma série de perseguições intensas, combates e exploração em uma cidade futurista. O jogo combina combate corpo a corpo, tiroteios e perseguições de alta velocidade, com o jogador utilizando o sistema de precog para identificar crimes antes de acontecerem. O jogo oferece uma experiência de ação intensa e envolvente, combinando elementos de ação e aventura para criar uma experiência única baseada no universo cinematográfico de Minority Report.",
+
+        genre: ["Ação", "Aventura", "Tiro em Terceira Pessoa"],
+        platform: "Nintendo GameCube",
+        size: "1.36 GB",
+        downloadLink: "http://workupload.com/file/JXc5ZSM3md2#google_vignette",
+        isNew: true,
+        gallery: [
+            MimorityReportEverybodyRunsDesktop,
+            MimorityReportEverybodyRunsGameplay1,
+            MimorityReportEverybodyRunsGameplay2
+        ],
+        youtubeId: "LdkWRcbQ2rQ",
+        EmuladorPC: "https://br.dolphin-emu.org/",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu",
+    },
+    {
+        id: "The Incredibles",
+        title: "THE INCREDIBLES",
+        image: TheIncredibles,
+
+        subtitle: "Viva a ação do filme e use os superpoderes da família Incrível para derrotar vilões e salvar o mundo!",
+
+        sobre: "The Incredibles é um jogo de ação e aventura lançado em 2004 para diversas plataformas, incluindo PlayStation 2, Xbox, GameCube, PC e Game Boy Advance. Baseado no filme Os Incríveis da Pixar, o jogo permite que os jogadores assumam o controle da família de super-heróis enquanto enfrentam vilões e tentam salvar o mundo das ameaças de Síndrome. Cada membro da família tem habilidades únicas: Sr. Incrível usa sua força sobre-humana, Mulher-Elástica pode alcançar locais distantes, Violeta usa sua invisibilidade e escudo de força, e Flecha corre em alta velocidade. As fases são baseadas nos eventos do filme, incluindo combates contra inimigos, desafios de plataforma e missões de infiltração. Com uma jogabilidade variada e repleta de ação, The Incredibles trouxe uma experiência emocionante para os fãs do filme, permitindo que eles vivenciassem as aventuras da icônica família de super-heróis.",
+
+        genre: ["Ação", "Aventura", "Plataforma", "Super-herói"],
+        platform: "Nintendo GameCube",
+        size: "1.4 GB",
+        downloadLink: "https://gofile.io/d/ThYQn8",
+        isNew: true,
+        gallery: [
+            TheIncrediblesDesktop,
+            TheIncrediblesGameplay1,
+            TheIncrediblesGameplay2
+        ],
+        youtubeId: "ckw1IdeZerI",
+        EmuladorPC: "https://br.dolphin-emu.org/",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu",
+    },
+    {
+        id: "Ratatouille",
+        title: "Ratatouille",
+        image: ratatouillegc,
+
+        subtitle: "Ajude Remy a superar desafios e conquistar seu sonho de se tornar o melhor chef de Paris em uma aventura culinária repleta de ação!",
+
+        sobre: "Ratatouille é um jogo de ação e aventura lançado em 2007 para GameCube, baseado no filme da Pixar. O jogo segue as aventuras de Remy, um rato que sonha em se tornar um chef de cozinha, enquanto ele tenta conquistar seu lugar na prestigiada restaurante Gusteau's em Paris. Os jogadores controlam Remy enquanto ele percorre a cozinha, enfrentando obstáculos, resolvendo quebra-cabeças e superando desafios. O jogo apresenta uma mecânica de plataforma, onde Remy deve navegar por áreas apertadas, evitar inimigos e usar suas habilidades culinárias para completar missões e agradar os clientes do restaurante. Com gráficos vibrantes, um enredo cativante e muita ação, Ratatouille oferece uma experiência divertida, permitindo que os jogadores vivenciem as emocionantes aventuras do filme enquanto ajudam Remy a alcançar seus sonhos culinários.",
+
+        genre: ["Ação", "Aventura", "Plataforma", "Quebra-Cabeça"],
+        platform: "Nintendo GameCube",
+        size: "984 MB",
+        downloadLink: "https://gofile.io/d/qjoPJ0",
+        isNew: true,
+        gallery: [
+            ratatouillegcDesktop,
+            ratatouillegcGameplay1,
+            ratatouillegcGameplay2
+        ],
+        youtubeId: "H7lbVpF6E3Y",
+        EmuladorPC: "https://br.dolphin-emu.org/",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=org.dolphinemu.dolphinemu",
+    },
+    {
+        id: "Final Fantasy",
+        title: "FINAL FANTASY",
+        image: finalfantasy,
+
+        subtitle: "Embarque em uma jornada épica com os Guerreiros da Luz para restaurar o equilíbrio do mundo e enfrentar forças sombrias em um dos RPGs mais icônicos de todos os tempos!",
+
+        sobre: "Final Fantasy é uma das franquias de RPG mais icônicas da história dos videogames, criada pela Square (atual Square Enix). O primeiro jogo, lançado em 1987 para o NES, revolucionou o gênero com seu sistema de batalhas por turnos, narrativa envolvente e um mundo de fantasia épico. A série é conhecida por seus mundos ricos, personagens memoráveis e histórias emocionantes, que variam a cada título. Elementos como magia, invocações de criaturas lendárias e batalhas estratégicas são marcas registradas da franquia. Ao longo dos anos, Final Fantasy evoluiu, trazendo gráficos inovadores, trilhas sonoras inesquecíveis e mecânicas de jogabilidade variadas, desde os combates clássicos em turnos até sistemas mais dinâmicos. Com dezenas de títulos principais e spin-offs, a saga continua sendo um dos maiores nomes do mundo dos RPGs.",
+
+        genre: ["RPG", "Aventura", "Fantasia"],
+        platform: "Nintendo 8bits (NES)",
+        size: "150 KB",
+        downloadLink: "https://www.mediafire.com/file/bu78hdym5bxyb9r/Final+Fantasy+1+%28U%29+%5BBR%5D.rar",
+        isNew: true,
+        gallery: [
+            finalfantasydesktop,
+            finalfantasygameplay1,
+            finalfantasygameplay2
+        ],
+        youtubeId: "",
+        EmuladorPC: "https://github.com/NovaSquirrel/Mesen-X/releases/tag/1.0.1",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=com.nostalgiaemulators.neslite",
+    },
+    {
+        id: "Battletoads",
+        title: "BATTLETOADS",
+        image: battletoads,
+
+        subtitle: "Lute, corra e sobreviva com os Battletoads em uma missão eletrizante contra a temível Dark Queen!",
+
+        sobre: "Lançado em 1991 para o NES pela Rare, Battletoads é um jogo de ação e plataforma conhecido por sua jogabilidade variada, combates intensos e alto nível de dificuldade. O jogo acompanha os heróis Rash, Zitz e Pimple, três sapos guerreiros que precisam resgatar a Princesa Angelica e seu amigo Professor T. Bird das garras da vilã Dark Queen. O jogo se destaca pela diversidade de fases, combinando beat ‘em up, corrida, plataforma e até momentos de escalada. Além disso, o modo cooperativo para dois jogadores torna a experiência ainda mais desafiadora, exigindo trabalho em equipe para superar inimigos e obstáculos mortais. Com gráficos detalhados, animações divertidas e uma trilha sonora marcante, Battletoads se tornou um dos jogos mais icônicos da era 8-bit, lembrado tanto por sua inovação quanto por seus desafios brutais.",
+
+        genre: ["Ação", "Plataforma", "Beat 'em up"],
+        platform: "Nintendo 8bits (NES)",
+        size: "179 KB",
+        downloadLink: "https://www.mediafire.com/file/c0dqpaasilzq2vt/Battletoads_BR_nes.rar",
+        isNew: true,
+        gallery: [
+            battletoadsdesktop,
+            battletoadsgameplay1,
+            battletoadsgameplay2
+        ],
+        youtubeId: "",
+        EmuladorPC: "https://github.com/NovaSquirrel/Mesen-X/releases/tag/1.0.1",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=com.nostalgiaemulators.neslite",
+    },
+    {
+        id: "Adventures Of Lolo 3",
+        title: "ADVENTURES OF LOLO 3",
+        image: lolo3,
+
+        subtitle: "Ajude Lolo e Lala a superar desafios estratégicos, resolver quebra-cabeças e derrotar o maligno Rei Egger para salvar seus amigos!",
+
+        sobre: "Lançado em 1991 para o NES, Adventures of Lolo 3 é o terceiro e último jogo da clássica série de quebra-cabeças desenvolvida pela HAL Laboratory. Dessa vez, Lolo e Lala embarcam juntos em uma jornada para salvar seus amigos do maligno Rei Egger, que mais uma vez espalhou desafios mortais por seu castelo. O jogo mantém a jogabilidade estratégica dos títulos anteriores, onde os jogadores precisam resolver quebra-cabeças desafiadores em diferentes salas, coletando corações e desbloqueando a saída para avançar. A grande novidade é que agora é possível jogar com Lolo ou Lala, além da introdução de novos inimigos e mecânicas mais complexas. Com gráficos melhorados, novos desafios e um nível de dificuldade crescente, Adventures of Lolo 3 é considerado um dos melhores jogos de quebra-cabeça do NES, oferecendo uma experiência divertida e desafiadora para os fãs da série.",
+
+        genre: ["Ação", "Aventura", "Quebra-Cabeça"],
+        platform: "Nintendo 8bits (NES)",
+        size: "121 KB",
+        downloadLink: "https://www.mediafire.com/file/k71uizgy6rocxpi/adv_of_lolo_iii_br.rar",
+        isNew: true,
+        gallery: [
+            lolo3desktop,
+            lolo3gameplay1,
+            lolo3gameplay2
+        ],
+        youtubeId: "",
+        EmuladorPC: "https://github.com/NovaSquirrel/Mesen-X/releases/tag/1.0.1",
+        EmuladorMobile: "https://play.google.com/store/apps/details?id=com.nostalgiaemulators.neslite",
     },
 ];
 

@@ -31,7 +31,8 @@ const SearchPage = () => {
       setSuggestions(randomGames);
     } else {
       const filtered = infoGames.filter(game =>
-        normalizeText(game.title).includes(normalizeText(searchQuery))
+        normalizeText(game.title).includes(normalizeText(searchQuery)) ||
+        (game.tags && game.tags.some(tag => normalizeText(tag).includes(normalizeText(searchQuery))))
       );
       setSuggestions(filtered);
     }
